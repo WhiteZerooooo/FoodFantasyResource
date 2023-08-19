@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>live2d-demo</title>
+    <script src="../build/jquery-3.1.0.min.js"></script>
+    <!-- Live2DCubismCore -->
+    <script src="../build/live2dcubismcore.min.js"></script>
+    <!-- Include Pixi. -->
+    <script src="../build/pixi.min.js"></script>
+    <!-- Include Cubism Components. -->
+    <script src="../build/live2dcubismframework.js"></script>
+    <script src="../build/live2dcubismpixi.js"></script>
+    <!-- User's Script -->
+    <script src="../build/l2d.js"></script>
+    <script src="../build/main.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <!-- Canvas -->
+    <div class="Canvas" id="L2dCanvas"></div>
+    <script>
+        /* 配置 */
+        var config = {
+            width: window.innerWidth, /* 窗口宽度最大值 */
+            height: window.innerHeight, /* 窗口高度最大值 */
+            left: '0px',
+            bottom: '0px',
+            basePath: '../assets/Test2',
+            role: 'l2d200132_11',
+            background: '',
+            opacity: 1
+        }
+        var v = new Viewer(config); 
+    </script>
+</body>
+</html>

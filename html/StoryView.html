@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>缇尔菈剧情展览馆</title>
+    <link rel="icon" type="image/x-icon" href="../assets/ico/storyview.ico">
+    <script src="../build/jquery-3.1.0.min.js"></script>
+    <!-- Live2DCubismCore -->
+    <script src="../build/live2dcubismcore.min.js"></script>
+    <!-- Include Pixi. -->
+    <script src="../build/pixi.min.js"></script>
+    <!-- Include Cubism Components. -->
+    <script src="../build/live2dcubismframework.js"></script>
+    <script src="../build/live2dcubismpixi.js"></script>
+    <!-- User's Script -->
+    <script src="../build/l2d.js"></script>
+    <script src="../build/main.js"></script>
+    <style>
+        /* 样式表 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2em;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            /* 居中对齐 */
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            /* 文字阴影 */
+            color: #f2f2f2;
+            /* 文字颜色 */
+            letter-spacing: 0.05em;
+            /* 文字间距 */
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-family: "Helvetica Neue", sans-serif;
+            font-size: 24px;
+            padding: 16px;
+        }
+
+        /* 在手机屏幕上的样式 */
+        @media screen and (max-width: 1280px) {
+            nav a {
+                color: #333;
+                text-decoration: none;
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 14px;
+                padding: 7px;
+            }
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #333;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+            font-size: 24px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            margin-top: -20px;
+        }
+
+        /* 默认样式 */
+        article {
+            background-color: #fefefe;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .avatar {
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            font-size: 18px;
+            margin-left: 10px;
+            flex-wrap: wrap;
+            white-space: pre-wrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 50px;
+            /* 控制展示的行数 */
+            transition: max-height 0.5s;
+            /* 添加动画效果 */
+        }
+
+        .avatar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #avatar-container {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            margin-right: 20px;
+            flex-wrap: wrap;
+            white-space: pre-wrap;
+        }
+
+        #avatar-container img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .name {
+            width: 150px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .scaled-image {
+            max-width: 100%;
+        }
+
+        .art-container {
+            display: flex;
+        }
+
+        .left1-column {
+            flex-basis: 20%;
+        }
+
+        .left2-column {
+            flex-basis: 20%;
+            margin-left: 30px;
+        }
+
+        .right-column {
+            flex-basis: 55%;
+            margin-left: 30px;
+        }
+
+        article {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1280px) {
+            .art-container {
+                flex-direction: column;
+            }
+
+            .left1-column {
+                width: 95%;
+            }
+
+            .left2-column {
+                width: 95%;
+                margin-left: 0;
+            }
+
+            .right-column {
+                width: 95%;
+                margin-left: 0;
+            }
+        }
+
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            transform: scale(1.3);
+            margin-right: 30px;
+        }
+
+        #search-input {
+            flex-grow: 1;
+            margin-right: 0px;
+        }
+
+        #search-btn {
+            margin-left: 0px;
+        }
+
+        #toutu {
+            height: 100px;
+            width: 100%;
+        }
+
+        .announcement {
+            position: relative;
+            width: 100%;
+            height: 70px;
+            overflow: hidden;
+        }
+
+        .announcement-left {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #f2f2f2;
+            overflow: hidden;
+        }
+
+        .announcement-scroll-text {
+            position: absolute;
+            top: 0;
+            right: 100%;
+            white-space: nowrap;
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: bold;
+            color: #333;
+            animation: scrollText 10s linear infinite;
+        }
+
+        @keyframes scrollText {
+            0% {
+                left: 100%;
+            }
+
+            100% {
+                left: -51%;
+            }
+        }
+
+        #mineCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        .bubble {
+            position: fixed;
+            z-index: 999;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .bubble::before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: -10%;
+            transform: translateX(-50%);
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent #333 transparent transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Canvas" id="L2dCanvas"></div>
+    <header>
+        <img id="toutu" src="../assets/WebPics/head.jpg" alt="Header Image">
+        <h1>缇尔菈秘档</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../html/StoryView.html">缇尔菈展览馆</a></li>
+            <li><a href="../html/Tools.html">立绘查看工具</a></li>
+            <li><a href="../html/TwoDraw.html">拉郎模拟器</a></li>
+            <li><a href="../html/TeamExcel.html">飨灵组织表格</a></li>
+            <li><a href="https://wiki.biligame.com/szqy/首页">食契WIKI</a></li>
+            <li><a href="../html/TeamMember.html">关于我们</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="搜索..." id="search-input">
+            <button id="search-btn" onclick="SearchStoryFromPerson()">搜索</button>
+        </div>
+    </nav>
+    <br>
+    <div class="announcement">
+        <div class="announcement-left">
+            <p class="announcement-scroll-text">
+                <big>现已开放剧情：所有大型副本剧情。皮肤本等剧情待收录。</big>
+                <!-- <big>点击浏览剧情跳转至wiki相关剧情页面</big> -->
+            </p>
+        </div>
+    </div>
+    <main>
+        <div class="art-container">
+            <div class="left1-column">
+            </div>
+            <div class="left2-column">
+            </div>
+            <div class="right-column">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 缇尔菈剧情展览馆.</p>
+    </footer>
+    <script>
+        var config = {
+            width: 400, /* 窗口宽度最大值 */
+            height: 400, /* 窗口高度最大值 */
+            right: '0px',
+            bottom: '0px',
+            basePath: '../assets/Live2dView',
+            role: 'l2d200132_11',
+            background: '',
+            opacity: 0,
+            mobile: true
+        }
+        var v = new Viewer(config); 
+        fetch('../json/story.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                main(jsonData)
+            })
+            .catch(error => console.error(error));
+
+        function main(data) {
+            data.forEach(articleUse => {
+                if (articleUse.title != "？？？") $({
+                    1: '.left1-column',
+                    2: '.left2-column',
+                    3: '.right-column'
+                }[articleUse.type] || '').append(
+                `<article class="${articleUse.title}" data-persons="${articleUse.person}">
+                    <h2>${articleUse.title}</h2>
+                    ${articleUse.img2 ? `<img src="../assets/CG/${articleUse.img}" alt="展览图片" class="scaled-image" width="49%"><img src="../assets/CG/${articleUse.img2}" alt="展览图片" class="scaled-image" width="49%" style="margin-left: 1%;">` : (articleUse.img ? `<img src="../assets/CG/${articleUse.img}" alt="展览图片" class="scaled-image">` : "")}
+                    <p>${articleUse.descr}</p>
+                    <a href="../html/StoryViewer.html?title=${articleUse.title}">浏览剧情</a>
+                    <p>相关飨灵&nbsp;&nbsp;&nbsp;
+                        <button onclick="toggleExpand('#${articleUse.title}')">展开</button>
+                    </p>
+                    <div class="avatar" id='${articleUse.title}'></div>
+                </article>`);
+            });
+            // data.forEach(articleUse => {
+            //     if (articleUse.title != "？？？") $({
+            //         1: '.left1-column',
+            //         2: '.left2-column',
+            //         3: '.right-column'
+            //     }[articleUse.type] || '').append(
+            //     `<article class="${articleUse.title}" data-persons="${articleUse.person}">
+            //         <h2>${articleUse.title}</h2>
+            //         ${articleUse.img2 ? `<img src="../assets/CG/${articleUse.img}" alt="展览图片" class="scaled-image" width="49%"><img src="../assets/CG/${articleUse.img2}" alt="展览图片" class="scaled-image" width="49%" style="margin-left: 1%;">` : (articleUse.img ? `<img src="../assets/CG/${articleUse.img}" alt="展览图片" class="scaled-image">` : "")}
+            //         <p>${articleUse.descr}</p>
+            //         <a href="https://wiki.biligame.com/szqy/${articleUse.title}#活动剧情">浏览剧情</a>
+            //         <p>相关飨灵&nbsp;&nbsp;&nbsp;
+            //             <button onclick="toggleExpand('#${articleUse.title}')">展开</button>
+            //         </p>
+            //         <div class="avatar" id='${articleUse.title}'></div>
+            //     </article>`);
+            // });
+
+            const articles2 = document.querySelectorAll('article');
+            articles2.forEach(article => {
+                // 获取 data-persons 属性的值
+                const persons = article.getAttribute('data-persons');
+                // 将中文字符串通过顿号分开成多个字符串
+                const personArray = persons.split('、');
+                fetch('../json/card.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        // 循环遍历每个人物名称并查找对应的 ID
+                        personArray.forEach(personName => {
+                            Object.values(data).forEach(item => {
+                                if (item.name === personName) {
+                                    // console.log(`The ID for ${personName} is ${item.id}`);
+                                    const avatar = article.querySelector('.avatar');
+                                    // 创建新的 img 元素
+                                    const newAvatar = document.createElement('img');
+                                    newAvatar.src = `../assets/head/card_icon_${item.id}.png`;
+                                    newAvatar.alt = '头像';
+                                    if (avatar) {
+                                        avatar.appendChild(newAvatar);
+                                    }
+                                    // newAvatar.addEventListener("mouseover", function (e) {
+                                    //     var div = document.createElement("div");
+                                    //     var p = document.createElement("p");
+                                    //     div.id = `${personName}bubble`
+                                    //     div.classList.add('bubble');
+                                    //     p.append(`${personName}`)
+                                    //     div.appendChild(p)
+                                    //     var elementRect = newAvatar.getBoundingClientRect();
+                                    //     var bubbleX = elementRect.left + elementRect.width + 10; // 气泡距离鼠标右侧20像素
+                                    //     var bubbleY = elementRect.top; // 气泡在鼠标垂直方向上居中显示
+                                    //     // 设置气泡的位置
+                                    //     div.style.left = bubbleX + 'px';
+                                    //     div.style.top = bubbleY + 'px';
+                                    //     document.body.appendChild(div);
+                                    // });
+
+                                    // newAvatar.addEventListener("mouseout", function () {
+                                    //     var div = document.getElementById(`${personName}bubble`);
+                                    //     div.parentNode.removeChild(div);
+                                    // });
+                                }
+                            });
+                        });
+                    });
+            });
+        }
+        function SearchStoryFromPerson(usefully) {
+            const searchInput = document.getElementById("search-input");
+            const articles = document.getElementsByTagName("article");
+            const searchValue = searchInput.value.toLowerCase();
+            for (let i = 0; i < articles.length; i++) {
+                const article = articles[i];
+                const persons = article.dataset.persons;
+                const titles = article.className;
+                article.style.display = (persons.includes(searchValue) || titles.includes(searchValue))  ? "block" : "none";
+            }
+        }
+        function toggleExpand(usefully) {
+            var avatar = document.querySelector(usefully);
+            if (avatar.style.maxHeight) {
+                avatar.style.maxHeight = null;
+            } else {
+                avatar.style.maxHeight = avatar.scrollHeight + "px";
+            }
+        }
+    </script>
+</body>
+
+</html>

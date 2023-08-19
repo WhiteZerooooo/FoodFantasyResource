@@ -1,0 +1,1765 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>全皮肤抽卡模拟器</title>
+    <style>
+    body {
+        background-color: #F7D8D8;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 36px;
+        color: #B22222;
+    }
+
+    button {
+        background-color: #B22222;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #DC143C;
+    }
+
+    .card {
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid #B22222;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card img {
+        width: 150px;
+        height: 200px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .card h2 {
+        font-size: 24px;
+        color: #B22222;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 16px;
+        color: #333;
+        margin: 10px 0 0;
+        height: 60px;
+        overflow: hidden;
+        text-align: left;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>全皮肤抽卡模拟器</h1> <button id="draw-btn">抽一次</button> <button id="multi-draw-btn">十连抽</button> <button id="multic-draw-btn">清除记录</button>
+    <div class="card" id="card">
+    </div>
+    <div id="card10" style="display: flex;flex-wrap: wrap">
+    </div>
+    <div id="draw-results"></div>
+    <script>
+    const cards = [{
+        "name": "品茶时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200001_10.png"
+    },
+    {
+        "name": "双生兔戏法",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200002_7.png"
+    },
+    {
+        "name": "暗夜双子星",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200002_8.png"
+    },
+    {
+        "name": "闲暇时光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200003_7.png"
+    },
+    {
+        "name": "深海征服",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200004_10.png"
+    },
+    {
+        "name": "扶桑渔人",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200005_7.png"
+    },
+    {
+        "name": "狂赌佳人",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200006_12.png"
+    },
+    {
+        "name": "偷心魔女",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200007_7.png"
+    },
+    {
+        "name": "暖心日常",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200008_7.png"
+    },
+    {
+        "name": "海豚之吻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200008_10.png"
+    },
+    {
+        "name": "海边假日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200009_7.png"
+    },
+    {
+        "name": "旌旗临舟",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200010_7.png"
+    },
+    {
+        "name": "实习服务生",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200011_7.png"
+    },
+    {
+        "name": "皇家特工",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200012_7.png"
+    },
+    {
+        "name": "细嗅蔷薇",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200012_9.png"
+    },
+    {
+        "name": "完美主义",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200012_8.png"
+    },
+    {
+        "name": "俏皮小厨娘",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200013_7.png"
+    },
+    {
+        "name": "长灯渡蝶",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200014_7.png"
+    },
+    {
+        "name": "逆时魔术师",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200015_7.png"
+    },
+    {
+        "name": "香醇回忆",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200015_20.png"
+    },
+    {
+        "name": "山樱行旅",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200016_7.png"
+    },
+    {
+        "name": "烈夏恋歌",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200018_7.png"
+    },
+    {
+        "name": "良师益友",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200019_7.png"
+    },
+    {
+        "name": "胜利之姿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200020_7.png"
+    },
+    {
+        "name": "假日警长",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200021_7.png"
+    },
+    {
+        "name": "爱的变装",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200022_7.png"
+    },
+    {
+        "name": "巴伐利亚",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200023_7.png"
+    },
+    {
+        "name": "恶魔之主",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200023_11.png"
+    },
+    {
+        "name": "月色朦胧",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200024_9.png"
+    },
+    {
+        "name": "暗镰天翼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200024_11.png"
+    },
+    {
+        "name": "安心时光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200025_7.png"
+    },
+    {
+        "name": "匆忙邀约",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200026_7.png"
+    },
+    {
+        "name": "记录时光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200027_10.png"
+    },
+    {
+        "name": "繁花探春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200028_7.png"
+    },
+    {
+        "name": "桂月玉兔",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200028_8.png"
+    },
+    {
+        "name": "爱的献身",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200029_7.png"
+    },
+    {
+        "name": "假日警司",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200030_7.png"
+    },
+    {
+        "name": "夏日海滩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200031_7.png"
+    },
+    {
+        "name": "灯火庙会",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200032_10.png"
+    },
+    {
+        "name": "与风竞雪",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200033_7.png"
+    },
+    {
+        "name": "福鼓祭礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200034_7.png"
+    },
+    {
+        "name": "假日女仆",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200035_7.png"
+    },
+    {
+        "name": "微醺圣诞夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200036_7.png"
+    },
+    {
+        "name": "誓约之舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200036_9.png"
+    },
+    {
+        "name": "绅士特工",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200037_7.png"
+    },
+    {
+        "name": "红叶之约",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200037_8.png"
+    },
+    {
+        "name": "梦圆时分",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200039_7.png"
+    },
+    {
+        "name": "年年有鱼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200040_7.png"
+    },
+    {
+        "name": "乐舞狮",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200040_8.png"
+    },
+    {
+        "name": "祭海舞天",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200041_7.png"
+    },
+    {
+        "name": "意想之外",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200041_10.png"
+    },
+    {
+        "name": "待雪之冬",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200042_7.png"
+    },
+    {
+        "name": "甜蜜陷阱",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200042_10.png"
+    },
+    {
+        "name": "樱信风",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200042_8.png"
+    },
+    {
+        "name": "夺命特工",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200043_7.png"
+    },
+    {
+        "name": "馨语心愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200044_7.png"
+    },
+    {
+        "name": "春蝶令",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200045_7.png"
+    },
+    {
+        "name": "惊雷之日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200045_12.png"
+    },
+    {
+        "name": "摇滚时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200046_8.png"
+    },
+    {
+        "name": "狂野圣诞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200046_7.png"
+    },
+    {
+        "name": "于虚空相遇",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200047_7.png"
+    },
+    {
+        "name": "机械风暴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200048_7.png"
+    },
+    {
+        "name": "心随乐动",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200049_7.png"
+    },
+    {
+        "name": "甜点时光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200050_7.png"
+    },
+    {
+        "name": "月满桂枝",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200051_7.png"
+    },
+    {
+        "name": "伊始的陪伴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200051_8.png"
+    },
+    {
+        "name": "少年游",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200052_7.png"
+    },
+    {
+        "name": "虚伪假面",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200053_9.png"
+    },
+    {
+        "name": "沉浸时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200054_7.png"
+    },
+    {
+        "name": "简单的幸福",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200055_7.png"
+    },
+    {
+        "name": "捣蛋木乃伊",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200056_7.png"
+    },
+    {
+        "name": "邂逅音符",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200056_20.png"
+    },
+    {
+        "name": "和你的世界",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200057_9.png"
+    },
+    {
+        "name": "祭礼一曲",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200057_7.png"
+    },
+    {
+        "name": "神之裁决",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200058_7.png"
+    },
+    {
+        "name": "童话守护者",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200058_8.png"
+    },
+    {
+        "name": "风的旋舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200059_10.png"
+    },
+    {
+        "name": "意外相逢",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200060_7.png"
+    },
+    {
+        "name": "惬春倦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200061_7.png"
+    },
+    {
+        "name": "甜点梦愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200062_7.png"
+    },
+    {
+        "name": "浪漫速递",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200062_8.png"
+    },
+    {
+        "name": "暗影灯莲",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200063_7.png"
+    },
+    {
+        "name": "海月圣女",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200063_8.png"
+    },
+    {
+        "name": "祭典之日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200064_7.png"
+    },
+    {
+        "name": "浮梦海棠",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200065_7.png"
+    },
+    {
+        "name": "初次的尝试",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200066_7.png"
+    },
+    {
+        "name": "甜蜜马戏团",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200067_7.png"
+    },
+    {
+        "name": "疯狂马戏团",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200068_7.png"
+    },
+    {
+        "name": "慵懒午后",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200069_7.png"
+    },
+    {
+        "name": "寻声梦歌",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200069_20.png"
+    },
+    {
+        "name": "花开堪折",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200069_12.png"
+    },
+    {
+        "name": "临时值日生",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200070_7.png"
+    },
+    {
+        "name": "难逃命运",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200070_12.png"
+    },
+    {
+        "name": "素羽之鹤",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200071_12.png"
+    },
+    {
+        "name": "魅夜绯华",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200072_7.png"
+    },
+    {
+        "name": "风拂樱雪",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200073_7.png"
+    },
+    {
+        "name": "海滩烧烤",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200074_10.png"
+    },
+    {
+        "name": "鹊月微芒",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200076_7.png"
+    },
+    {
+        "name": "祥瑞成意",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200076_12.png"
+    },
+    {
+        "name": "心的归途",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200077_7.png"
+    },
+    {
+        "name": "夏日约会",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200078_10.png"
+    },
+    {
+        "name": "蔷薇夜影",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200079_11.png"
+    },
+    {
+        "name": "玩偶公主",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200080_7.png"
+    },
+    {
+        "name": "戌年有吉",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200081_7.png"
+    },
+    {
+        "name": "落紫泛涟",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200082_7.png"
+    },
+    {
+        "name": "温暖陪伴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200083_7.png"
+    },
+    {
+        "name": "七彩之愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200084_7.png"
+    },
+    {
+        "name": "狂欢时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200086_7.png"
+    },
+    {
+        "name": "酒鬼花生",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200086_8.png"
+    },
+    {
+        "name": "紫藤之约",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200087_7.png"
+    },
+    {
+        "name": "桃李不言",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200087_8.png"
+    },
+    {
+        "name": "寒春青菊",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200088_7.png"
+    },
+    {
+        "name": "靡颜血舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200089_7.png"
+    },
+    {
+        "name": "暗夜救赎",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200090_7.png"
+    },
+    {
+        "name": "引灵人偶",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200091_7.png"
+    },
+    {
+        "name": "星曜之梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200091_20.png"
+    },
+    {
+        "name": "弄丢的玫瑰",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200092_11.png"
+    },
+    {
+        "name": "海边游记",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200093_10.png"
+    },
+    {
+        "name": "夏空之忆",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200094_10.png"
+    },
+    {
+        "name": "蝶舞春色",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200095_7.png"
+    },
+    {
+        "name": "莲影浮水",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200096_7.png"
+    },
+    {
+        "name": "等待的狐狸",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200097_11.png"
+    },
+    {
+        "name": "绮梦乱樱",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200098_11.png"
+    },
+    {
+        "name": "星辰之征",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200099_7.png"
+    },
+    {
+        "name": "手心的暖意",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200100_7.png"
+    },
+    {
+        "name": "春风似剪",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200100_8.png"
+    },
+    {
+        "name": "休憩时间",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200101_7.png"
+    },
+    {
+        "name": "游侠客",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200102_7.png"
+    },
+    {
+        "name": "无垢的梦影",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200103_7.png"
+    },
+    {
+        "name": "荒野猎手",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200105_7.png"
+    },
+    {
+        "name": "新的愿望",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200106_12.png"
+    },
+    {
+        "name": "梵铃清风",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200107_12.png"
+    },
+    {
+        "name": "谱写阳光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200108_10.png"
+    },
+    {
+        "name": "瑰誓献礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200109_7.png"
+    },
+    {
+        "name": "兰夜山鹊",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200112_7.png"
+    },
+    {
+        "name": "起舞弄清影",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200112_8.png"
+    },
+    {
+        "name": "心动玩偶",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200115_7.png"
+    },
+    {
+        "name": "猫与夏日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200116_10.png"
+    },
+    {
+        "name": "一舞神乐",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200117_7.png"
+    },
+    {
+        "name": "至远方的信",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200118_10.png"
+    },
+    {
+        "name": "花上眠",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200119_7.png"
+    },
+    {
+        "name": "命运之矛",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200120_11.png"
+    },
+    {
+        "name": "闲人勿进",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200121_7.png"
+    },
+    {
+        "name": "妄论学者",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200122_7.png"
+    },
+    {
+        "name": "重九踏秋",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200123_7.png"
+    },
+    {
+        "name": "秋鹤排晴空",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200123_8.png"
+    },
+    {
+        "name": "宅女生活",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200124_7.png"
+    },
+    {
+        "name": "慵懒之旅",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200124_8.png"
+    },
+    {
+        "name": "荆棘魅影",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200125_7.png"
+    },
+    {
+        "name": "圣洁医官",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200125_8.png"
+    },
+    {
+        "name": "绯色童话",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200125_11.png"
+    },
+    {
+        "name": "暖阳浮彩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200126_7.png"
+    },
+    {
+        "name": "苜蓿星芒",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200127_7.png"
+    },
+    {
+        "name": "祝日圣音",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200127_8.png"
+    },
+    {
+        "name": "恐怖欢乐秀",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200128_7.png"
+    },
+    {
+        "name": "梦影迷境",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200129_7.png"
+    },
+    {
+        "name": "淆乱之夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200129_11.png"
+    },
+    {
+        "name": "宁静小憩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200130_11.png"
+    },
+    {
+        "name": "仙境迷踪",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200132_11.png"
+    },
+    {
+        "name": "纯白梦境",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200132_7.png"
+    },
+    {
+        "name": "灯影梦愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200133_7.png"
+    },
+    {
+        "name": "甜美恶作剧",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200133_8.png"
+    },
+    {
+        "name": "祥和秋日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200134_7.png"
+    },
+    {
+        "name": "真实之眼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200135_11.png"
+    },
+    {
+        "name": "狮舞千春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200136_7.png"
+    },
+    {
+        "name": "牵丝蝶绯",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200137_7.png"
+    },
+    {
+        "name": "九尾狐魂",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200138_11.png"
+    },
+    {
+        "name": "踏雪寻梅",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200140_12.png"
+    },
+    {
+        "name": "香满溢楼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200141_7.png"
+    },
+    {
+        "name": "霓裳春色",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200142_7.png"
+    },
+    {
+        "name": "岁末佳宴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200142_8.png"
+    },
+    {
+        "name": "所见之物",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200143_7.png"
+    },
+    {
+        "name": "秋庭枫华",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200144_7.png"
+    },
+    {
+        "name": "难言本心",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200145_7.png"
+    },
+    {
+        "name": "从头越",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200147_11.png"
+    },
+    {
+        "name": "丹心蛇影",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200148_7.png"
+    },
+    {
+        "name": "共华年",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200148_12.png"
+    },
+    {
+        "name": "东篱约",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200150_7.png"
+    },
+    {
+        "name": "惑音幻歌",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200151_11.png"
+    },
+    {
+        "name": "深海骑士",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200151_7.png"
+    },
+    {
+        "name": "落笔婵娟",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200152_7.png"
+    },
+    {
+        "name": "浩瀚粼光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200153_10.png"
+    },
+    {
+        "name": "璀璨晚宴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200153_11.png"
+    },
+    {
+        "name": "星砂魔女",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200154_7.png"
+    },
+    {
+        "name": "冥泉夜魑",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200155_7.png"
+    },
+    {
+        "name": "永远的蜜月",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200156_7.png"
+    },
+    {
+        "name": "沁爽之夏",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200157_10.png"
+    },
+    {
+        "name": "虚像王国",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200157_11.png"
+    },
+    {
+        "name": "温心陪伴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200159_7.png"
+    },
+    {
+        "name": "恋恋糖心",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200160_7.png"
+    },
+    {
+        "name": "粉糖恋战",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200160_8.png"
+    },
+    {
+        "name": "魔力星光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200161_7.png"
+    },
+    {
+        "name": "旧家会宴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200162_7.png"
+    },
+    {
+        "name": "馨香祝愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200164_7.png"
+    },
+    {
+        "name": "绯红之风",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200165_12.png"
+    },
+    {
+        "name": "战曲回响",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200165_7.png"
+    },
+    {
+        "name": "宝石之海",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200166_7.png"
+    },
+    {
+        "name": "此生宠爱",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200167_10.png"
+    },
+    {
+        "name": "坠落之羽",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200168_11.png"
+    },
+    {
+        "name": "圣枪之誓",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200170_7.png"
+    },
+    {
+        "name": "美好祝愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200171_7.png"
+    },
+    {
+        "name": "四国柚子",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200172_7.png"
+    },
+    {
+        "name": "幸存之芽",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200172_11.png"
+    },
+    {
+        "name": "向往之旅",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200173_7.png"
+    },
+    {
+        "name": "戴罪之身",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200173_11.png"
+    },
+    {
+        "name": "青苍魔女",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200176_7.png"
+    },
+    {
+        "name": "糖霜派对",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200177_7.png"
+    },
+    {
+        "name": "夜曜星汐",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200179_7.png"
+    },
+    {
+        "name": "受造之日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200180_7.png"
+    },
+    {
+        "name": "女巫猎手",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200181_7.png"
+    },
+    {
+        "name": "星河轨迹",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200182_7.png"
+    },
+    {
+        "name": "辉夜之舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200183_7.png"
+    },
+    {
+        "name": "宝石魔女",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200184_7.png"
+    },
+    {
+        "name": "佳期如梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200185_7.png"
+    },
+    {
+        "name": "不死之焰",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200186_11.png"
+    },
+    {
+        "name": "圣诞星夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200187_7.png"
+    },
+    {
+        "name": "岁贺子神",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200188_12.png"
+    },
+    {
+        "name": "茶会时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200189_7.png"
+    },
+    {
+        "name": "假日约会",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200190_10.png"
+    },
+    {
+        "name": "特别行动",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200191_7.png"
+    },
+    {
+        "name": "木萤咏调",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200192_7.png"
+    },
+    {
+        "name": "迷人等候",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200193_7.png"
+    },
+    {
+        "name": "浴兰时节",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200194_7.png"
+    },
+    {
+        "name": "寒冬亚岁",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200195_7.png"
+    },
+    {
+        "name": "侵风踏符",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200197_7.png"
+    },
+    {
+        "name": "韵节镜舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200198_7.png"
+    },
+    {
+        "name": "黯羽缀华",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200201_7.png"
+    },
+    {
+        "name": "元灯映夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200202_7.png"
+    },
+    {
+        "name": "画屏绮春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200204_12.png"
+    },
+    {
+        "name": "野猫节奏",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200205_12.png"
+    },
+    {
+        "name": "武心茗刀",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200206_7.png"
+    },
+    {
+        "name": "天羽羽斩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200208_7.png"
+    },
+    {
+        "name": "糖丝趣",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200209_12.png"
+    },
+    {
+        "name": "芝兰悠语",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200210_7.png"
+    },
+    {
+        "name": "优雅冕礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200211_7.png"
+    },
+    {
+        "name": "讷讷之言",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200212_7.png"
+    },
+    {
+        "name": "火蜂飞舞",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200213_7.png"
+    },
+    {
+        "name": "春日出游",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200214_7.png"
+    },
+    {
+        "name": "温泉小憩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200215_12.png"
+    },
+    {
+        "name": "恶作剧专家",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200216_7.png"
+    },
+    {
+        "name": "青鹭夜话",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200217_10.png"
+    },
+    {
+        "name": "雾隐玄龙",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200218_7.png"
+    },
+    {
+        "name": "新春聚会",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200219_12.png"
+    },
+    {
+        "name": "都市浪人",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200220_12.png"
+    },
+    {
+        "name": "挑灯遥行",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200221_10.png"
+    },
+    {
+        "name": "紫藤跃曲",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200222_7.png"
+    },
+    {
+        "name": "江月共潮生",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200223_7.png"
+    },
+    {
+        "name": "黎明将至",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200224_11.png"
+    },
+    {
+        "name": "夏日祭典",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200226_7.png"
+    },
+    {
+        "name": "游园时刻",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200229_7.png"
+    },
+    {
+        "name": "烟火缭乱",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200230_7.png"
+    },
+    {
+        "name": "古琴寒灯",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200231_7.png"
+    },
+    {
+        "name": "空夜孤鲛",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200233_7.png"
+    },
+    {
+        "name": "白狼诉愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200234_7.png"
+    },
+    {
+        "name": "幽笔召冥",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200235_7.png"
+    },
+    {
+        "name": "嫣华曲",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200238_7.png"
+    },
+    {
+        "name": "少年意",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200239_11.png"
+    },
+    {
+        "name": "嫣染花火",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200240_10.png"
+    },
+    {
+        "name": "临川遗梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200241_7.png"
+    },
+    {
+        "name": "椰夏碧游",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200242_7.png"
+    },
+    {
+        "name": "圣音魔使",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200243_7.png"
+    },
+    {
+        "name": "深海魔药",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200244_11.png"
+    },
+    {
+        "name": "暗夜守护者",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200245_11.png"
+    },
+    {
+        "name": "七色之愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200247_11.png"
+    },
+    {
+        "name": "旧都遗梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200248_7.png"
+    },
+    {
+        "name": "昭赫华诗",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200249_7.png"
+    },
+    {
+        "name": "执鸳落秋",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200250_7.png"
+    },
+    {
+        "name": "别样的祝福",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200252_12.png"
+    },
+    {
+        "name": "极蓝预言",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200253_11.png"
+    },
+    {
+        "name": "青衔之风",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200254_7.png"
+    },
+    {
+        "name": "香日欢茗",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200255_7.png"
+    },
+    {
+        "name": "馥瑰黠礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200256_7.png"
+    },
+    {
+        "name": "青芳甜梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200257_7.png"
+    },
+    {
+        "name": "瑞雪祥愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200260_7.png"
+    },
+    {
+        "name": "赤缠之叶",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200261_11.png"
+    },
+    {
+        "name": "舞刃流云",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200262_7.png"
+    },
+    {
+        "name": "耀夜流辉",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200263_7.png"
+    },
+    {
+        "name": "紫藤夕岚",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200264_11.png"
+    },
+    {
+        "name": "八岐神域",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200266_11.png"
+    },
+    {
+        "name": "冽然品味",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200267_7.png"
+    },
+    {
+        "name": "白雪圣冠",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200268_7.png"
+    },
+    {
+        "name": "醉佳酿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200269_12.png"
+    },
+    {
+        "name": "素衣赏樱雪",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200270_12.png"
+    },
+    {
+        "name": "春野茶会",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200271_7.png"
+    },
+    {
+        "name": "优雅初尝",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200272_7.png"
+    },
+    {
+        "name": "明澈焰火",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200273_12.png"
+    },
+    {
+        "name": "戏鱼寻春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200274_7.png"
+    },
+    {
+        "name": "明德惟馨",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200276_7.png"
+    },
+    {
+        "name": "富绅先生",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200277_20.png"
+    },
+    {
+        "name": "上流佳人",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200278_20.png"
+    },
+    {
+        "name": "狩猎准则",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200279_7.png"
+    },
+    {
+        "name": "小小意外",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200280_7.png"
+    },
+    {
+        "name": "梦中原野",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200285_7.png"
+    },
+    {
+        "name": "誓守之意",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200286_11.png"
+    },
+    {
+        "name": "杏礼祝颂",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200287_7.png"
+    },
+    {
+        "name": "水乡小闲客",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200289_12.png"
+    },
+    {
+        "name": "缤纷圣夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200290_7.png"
+    },
+    {
+        "name": "缤纷游园",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200291_10.png"
+    },
+    {
+        "name": "玉质翩翩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200292_7.png"
+    },
+    {
+        "name": "绿植物语",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200293_7.png"
+    },
+    {
+        "name": "匠心妙成",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200295_7.png"
+    },
+    {
+        "name": "且入炼狱",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200296_11.png"
+    },
+    {
+        "name": "淑女神探",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200297_7.png"
+    },
+    {
+        "name": "春映花绽",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200298_7.png"
+    },
+    {
+        "name": "幻羽极光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200299_7.png"
+    },
+    {
+        "name": "燃动时速",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200301_7.png"
+    },
+    {
+        "name": "月冕苍夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200303_7.png"
+    },
+    {
+        "name": "坠落人间",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200304_7.png"
+    },
+    {
+        "name": "花韵悸动",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200306_7.png"
+    },
+    {
+        "name": "萌趣时光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200307_7.png"
+    },
+    {
+        "name": "甜苦滋味",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200308_7.png"
+    },
+    {
+        "name": "一箭倾心",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200309_11.png"
+    },
+    {
+        "name": "纯白协奏曲",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200310_7.png"
+    },
+    {
+        "name": "神悯颂决",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200311_11.png"
+    },
+    {
+        "name": "荷舟曼鹭",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200312_7.png"
+    },
+    {
+        "name": "不陨铁骑",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200315_11.png"
+    },
+    {
+        "name": "不拘形迹",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200317_7.png"
+    },
+    {
+        "name": "夜星错落",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200318_10.png"
+    },
+    {
+        "name": "朱彩贺新岁",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200319_7.png"
+    },
+    {
+        "name": "喜闹迎春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200321_7.png"
+    },
+    {
+        "name": "甜趣彩蛋",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200322_7.png"
+    },
+    {
+        "name": "探溪星野",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200324_10.png"
+    },
+    {
+        "name": "暖樱心愫",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200325_7.png"
+    },
+    {
+        "name": "吉线结彩",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200326_7.png"
+    },
+    {
+        "name": "豆蔻粉黛",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200327_7.png"
+    },
+    {
+        "name": "湛海寻星",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200328_10.png"
+    },
+    {
+        "name": "福信东来",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200329_7.png"
+    },
+    {
+        "name": "丹枫华染",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200330_12.png"
+    },
+    {
+        "name": "亡鸦噤夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200331_11.png"
+    },
+    {
+        "name": "暖绒新愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200336_7.png"
+    },
+    {
+        "name": "甜诱星球",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200340_10.png"
+    },
+    {
+        "name": "瑰色香氛",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200341_7.png"
+    },
+    {
+        "name": "危险邀请",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200343_7.png"
+    },
+    {
+        "name": "璇花凝蕊",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200345_12.png"
+    },
+    {
+        "name": "勿忘心弦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200346_7.png"
+    },
+    {
+        "name": "荆棘玫瑰",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200347_11.png"
+    },
+    {
+        "name": "自由之歌",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200348_11.png"
+    },
+    {
+        "name": "惊眸缚杀",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200349_7.png"
+    },
+    {
+        "name": "幻色餐野",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200350_7.png"
+    },
+    {
+        "name": "桂兔入怀",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200352_7.png"
+    },
+    {
+        "name": "甜趣尝试",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200353_7.png"
+    },
+    {
+        "name": "热力炽火",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200354_7.png"
+    },
+    {
+        "name": "血色桎梏",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200355_11.png"
+    },
+    {
+        "name": "胧樱夜寐",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200357_11.png"
+    },
+    {
+        "name": "冰爽雪间",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200359_7.png"
+    },
+    {
+        "name": "瑰夜阑言",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200360_10.png"
+    },
+    {
+        "name": "漫邃皓雅",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200361_7.png"
+    },
+    {
+        "name": "燃羽庇佑",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200362_10.png"
+    },
+    {
+        "name": "穹色晚宴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200363_7.png"
+    },
+    {
+        "name": "华色致意",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200364_7.png"
+    },
+    {
+        "name": "奇妙茸戏",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200367_11.png"
+    },
+    {
+        "name": "甘甜暗夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200369_7.png"
+    },
+    {
+        "name": "无尽堕渊",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200370_7.png"
+    },
+    {
+        "name": "浮世踏游",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200371_11.png"
+    },
+    {
+        "name": "白羽傩祭",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200372_7.png"
+    },
+    {
+        "name": "谢灶迎春",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200373_12.png"
+    },
+    {
+        "name": "噬暗雪猎",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200374_11.png"
+    },
+    {
+        "name": "赤砂祭歌",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200375_7.png"
+    },
+    {
+        "name": "向阳之礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200376_7.png"
+    },
+    {
+        "name": "月祭之夜",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200377_11.png"
+    },
+    {
+        "name": "惶悚之礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200378_7.png"
+    },
+    {
+        "name": "甜夜幻游",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200379_11.png"
+    },
+    {
+        "name": "煦春恬梦",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200380_7.png"
+    },
+    {
+        "name": "烂漫献礼",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200381_7.png"
+    },
+    {
+        "name": "禁忌瑰园",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200382_11.png"
+    },
+    {
+        "name": "森郁温良",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200384_7.png"
+    },
+    {
+        "name": "绯祭愿祈",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200385_7.png"
+    },
+    {
+        "name": "食岁华宵",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200386_7.png"
+    },
+    {
+        "name": "诞丽巡演",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200387_11.png"
+    },
+    {
+        "name": "猎魔野兽",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200388_11.png"
+    },
+    {
+        "name": "纯真绒愿",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200389_12.png"
+    },
+    {
+        "name": "悬绳隐龙",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200390_11.png"
+    },
+    {
+        "name": "霜野羽猎",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200392_7.png"
+    },
+    {
+        "name": "悠然假日",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200393_7.png"
+    },
+    {
+        "name": "锦色琼宴",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200395_12.png"
+    },
+    {
+        "name": "灯夕流光",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200397_7.png"
+    },
+    {
+        "name": "白塔远行",
+        "drawId": "http://39.108.154.147/assets/card/card_draw_200401_7.png"
+    }
+    ];
+    const drawCard = () => {
+        // 生成随机数，用于选择一张卡片
+
+
+        // 获取展示区域和卡片元素
+        const hhhh = document.getElementsByTagName("h1")[0];
+        hhhh.textContent = "全皮肤抽卡模拟器"
+        const card = document.getElementById("card");
+        const cardsss = document.getElementById("card10");
+        card.style.display = "block";
+        cardsss.style.display = "none";
+
+        card.innerHTML = '';
+        const randomIndex = Math.floor(Math.random() * cards.length);
+
+        // 创建卡片元素
+        card.className = "card";
+        const cardImage = document.createElement("img");
+        cardImage.src = cards[randomIndex].image;
+        const cardName = document.createElement("h2");
+        cardName.textContent = cards[randomIndex].name;
+        const cardDescription = document.createElement("p");
+        // cardDescription.textContent = cards[randomIndex].id;
+        const drawResultsElement = document.getElementById("draw-results");
+        drawResultsElement.insertAdjacentHTML("afterbegin", `<p>抽到了 ${cards[randomIndex].name}</p>`);
+        let drawResults = JSON.parse(localStorage.getItem('drawResultsSkin')) || [];
+        drawResults.push(`<p>抽到了 ${cards[randomIndex].name}</p>`);
+
+        // 将更新后的数组存储回localStorage中
+        localStorage.setItem('drawResultsSkin', JSON.stringify(drawResults));
+
+        // 添加卡片元素到展示区域
+        card.appendChild(cardImage);
+        card.appendChild(cardName);
+        card.appendChild(cardDescription);
+    };
+
+    const drawMultiCards = () => {
+        // 获取展示区域和卡片元素
+        const hhhh = document.getElementsByTagName("h1")[0];
+        hhhh.textContent = "全皮肤抽卡模拟器"
+        const cardContainer = document.getElementById("card10");
+        const cardsss = document.getElementById("card");
+        cardContainer.style.display = "flex";
+        cardsss.style.display = "none";
+        cardContainer.innerHTML = '';
+
+        // 循环抽取十张卡片并展示在页面上
+        for (let i = 0; i < 10; i++) {
+            // 生成随机数，用于选择一张卡片
+            const randomIndex = Math.floor(Math.random() * cards.length);
+
+            // 创建卡片元素
+            const card = document.createElement("div");
+            card.className = "card";
+            const cardImage = document.createElement("img");
+            cardImage.src = cards[randomIndex].drawId;
+            const cardName = document.createElement("h2");
+            cardName.textContent = cards[randomIndex].name;
+            const cardDescription = document.createElement("p");
+            // cardDescription.textContent = cards[randomIndex].id;
+            const drawResultsElement = document.getElementById("draw-results");
+            drawResultsElement.insertAdjacentHTML("afterbegin", `<p>抽到了 ${cards[randomIndex].name}</p>`);
+            let drawResults = JSON.parse(localStorage.getItem('drawResultsSkin')) || [];
+            drawResults.push(`<p>抽到了 ${cards[randomIndex].name}</p>`);
+
+            // 将更新后的数组存储回localStorage中
+            localStorage.setItem('drawResultsSkin', JSON.stringify(drawResults));
+
+            // 添加卡片元素到展示区域
+            card.appendChild(cardImage);
+            card.appendChild(cardName);
+            card.appendChild(cardDescription);
+            cardContainer.appendChild(card);
+        }
+    };
+
+    const clearcard = () => {
+
+        localStorage.removeItem('drawResultsSkin');
+
+        const drawResultsElement = document.getElementById("draw-results");
+        drawResultsElement.innerHTML = '';
+
+
+    };
+
+
+    const drawMulti2Cards = () => {
+        // 获取展示区域和卡片元
+        const hhhh = document.getElementsByTagName("h1")[0];
+        hhhh.textContent = "拉郎模拟器"
+        const cardContainer = document.getElementById("card10");
+        const cardsss = document.getElementById("card");
+        cardContainer.style.display = "flex";
+        cardsss.style.display = "none";
+        cardContainer.innerHTML = '';
+        var ccard1
+        var ccard2
+
+        // 循环抽取十张卡片并展示在页面上
+        for (let i = 0; i < 2; i++) {
+            // 生成随机数，用于选择一张卡片
+            const randomIndex = Math.floor(Math.random() * cards.length);
+
+            // 创建卡片元素
+            const card = document.createElement("div");
+            card.className = "card";
+            const cardImage = document.createElement("img");
+            cardImage.src = cards[randomIndex].image;
+            const cardName = document.createElement("h2");
+            cardName.textContent = cards[randomIndex].name;
+            const cardDescription = document.createElement("p");
+            // cardDescription.textContent = cards[randomIndex].id;
+            if (i === 0) {
+                // i 为 1 时执行的代码
+                ccard1 = cards[randomIndex].name;
+            } else if (i === 1) {
+                // i 为 2 时执行的代码
+                ccard2 = cards[randomIndex].name;
+            } else {
+                // i 不为 1 或 2 时执行的代码
+            }
+            // 添加卡片元素到展示区域
+            card.appendChild(cardImage);
+            card.appendChild(cardName);
+            card.appendChild(cardDescription);
+            cardContainer.appendChild(card);
+        }
+        // 向数组中添加新的字符串
+        let drawResults = JSON.parse(localStorage.getItem('drawResultsSkin')) || [];
+        drawResults.push(`<p>拉郎了 ${ccard1}和${ccard2}</p>`);
+
+        // 将更新后的数组存储回localStorage中
+        localStorage.setItem('drawResultsSkin', JSON.stringify(drawResults));
+        const drawResultsElement = document.getElementById("draw-results");
+        drawResultsElement.insertAdjacentHTML("afterbegin", `<p>拉郎了 ${ccard1}和${ccard2}</p>`);
+    };
+
+    // 绑定“抽一次”
+    const drawButton = document.getElementById("draw-btn");
+    drawButton.addEventListener("click", drawCard);
+
+    // 绑定“十连抽”
+    const drawMultiButton = document.getElementById("multi-draw-btn");
+    drawMultiButton.addEventListener("click", drawMultiCards);
+    const drawMulticButton = document.getElementById("multic-draw-btn");
+    drawMulticButton.addEventListener("click", clearcard);
+    const drawMulti2Button = document.getElementById("multi-two-btn");
+    drawMulti2Button.addEventListener("click", drawMulti2Cards);
+
+    // 将字符串存储在localStorage中
+    // 从localStorage中获取存储的数组，如果不存在则创建一个空数组
+
+
+    // 从localStorage中获取存储的数组，并将其解析为JavaScript对象
+    // const storedStrings = JSON.parse(localStorage.getItem('drawResultsSkin'));
+
+    // console.log(storedStrings); // 输出: ["这是第一个字符串", "这是第二个字符串", "这是第三个字符串", "这是新添加的字符串"]
+
+
+
+    // 初始化抽卡记录
+    //localStorage.clear();
+
+    const drawResults = JSON.parse(localStorage.getItem("drawResultsSkin")) || [];
+    console.log(drawResults);
+    const drawResultsElement = document.getElementById("draw-results");
+    drawResults.forEach((drawResult) => {
+        // if (Array.isArray(drawResult)) {
+        //   drawResultsElement.insertAdjacentHTML("beforeend", `<p>抽到了 ${drawResult.join(", ")}</p>`);
+        // } else {
+        drawResultsElement.insertAdjacentHTML("afterbegin", `${drawResult}`);
+        // }
+    });
+    </script>
+</body>
+
+</html>

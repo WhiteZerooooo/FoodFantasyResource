@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="icon" type="image/x-icon" href="../assets/ico/teammenber.ico">
+    <script src="../build/jquery-3.1.0.min.js"></script>
+    <!-- Live2DCubismCore -->
+    <script src="../build/live2dcubismcore.min.js"></script>
+    <!-- Include Pixi. -->
+    <script src="../build/pixi.min.js"></script>
+    <!-- Include Cubism Components. -->
+    <script src="../build/live2dcubismframework.js"></script>
+    <script src="../build/live2dcubismpixi.js"></script>
+    <!-- User's Script -->
+    <script src="../build/l2d.js"></script>
+    <script src="../build/main.js"></script>
+    <style>
+    body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    header {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+    .feature img {
+        max-width: 50%;
+        margin-right: 20px;
+    }
+
+    .feature-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .feature p {
+        margin: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="Canvas" id="L2dCanvas"></div>
+    <a href="../html/StoryView.html">点击返回缇尔菈展览馆</a>
+    <header>
+        <h1>关于我们</h1>
+    </header>
+    <section>
+        <h2>我们的故事</h2>
+        <p>一个神秘组织，至于有多神秘，只能说是非常神秘。</p>
+        <!-- <img src="about-us.jpg" alt="关于我们"> -->
+        <h3>我们的价值观</h3>
+        <ul>
+            <li>富强、民主、文明、和谐</li>
+            <li>自由、平等、公正、法治</li>
+            <li>爱国、敬业、诚信、友善</li>
+        </ul>
+    </section>
+    <section>
+        <h2>我们的组织</h2>
+        <p>我们的组织由来自不同领域的非专业人员组成。我们组织的成员都没有多年的经验，不能够为玩家提供全面的技术支持和创新性解决方案。</p>
+        <p>&nbsp;</p>
+        <div class="feature">
+            <img src="../assets/UsPics/team-1.jpg" alt="团队成员" style="width:75px;height:75px">
+            <div class="feature-text">
+                <h3>巾巾</h3>
+                <p>有情人终成兄妹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="../assets/UsPics/team-2.jpg" alt="团队成员" style="width:75px;height:75px">
+            <div class="feature-text">
+                <h3>口幺刀</h3>
+                <p>心情是三酒胃泰&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="../assets/UsPics/team-3.jpg" alt="团队成员" style="width:75px;height:75px">
+            <div class="feature-text">
+                <h3>又一</h3>
+                <p>重生去浪姐干饭&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="../assets/UsPics/team-4.jpg" alt="团队成员" style="width:75px;height:75px">
+            <div class="feature-text">
+                <h3>日夕</h3>
+                <p>程序员不行我上&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="feature">
+            <img src="../assets/UsPics/team-5.jpg" alt="团队成员" style="width:75px;height:75px">
+            <div class="feature-text">
+                <h3>氵巳十</h3>
+                <p>新进员工泡泡糖&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>不要联系我们</h2>
+        <p>如果您对我们组织感兴趣或有任何问题，请不要联系我们！</p>
+        <ul>
+            <li>电话：888-888-8888</li>
+            <li>电子邮件：shenmizuzhi@tierla.com</li>
+            <li>地址：Room 120, Yaozhizhou Street, Tierla, Fantang</li>
+        </ul>
+    </section>
+</body>
+<script>
+    var config = {
+            width: 400, /* 窗口宽度最大值 */
+            height: 400, /* 窗口高度最大值 */
+            right: '0px',
+            bottom: '0px',
+            basePath: '../assets/Live2dView',
+            role: 'l2d200132_11',
+            background: '',
+            opacity: 0,
+            mobile: true
+        }
+        var v = new Viewer(config); 
+</script>
+</html>
