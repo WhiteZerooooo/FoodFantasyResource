@@ -1,0 +1,146 @@
+
+300200_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+300200_bizui
+  rotate: false
+  xy: 33, 6
+  size: 9, 4
+  orig: 9, 4
+  offset: 0, 0
+  index: -1
+300200_hdj
+  rotate: false
+  xy: 63, 93
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+300200_hy
+  rotate: false
+  xy: 2, 161
+  size: 87, 48
+  orig: 87, 48
+  offset: 0, 0
+  index: -1
+300200_le
+  rotate: true
+  xy: 63, 78
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+300200_ls
+  rotate: true
+  xy: 87, 101
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+300200_lxb
+  rotate: true
+  xy: 218, 232
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+300200_mt
+  rotate: false
+  xy: 172, 220
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+300200_mz
+  rotate: true
+  xy: 61, 122
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+300200_sy
+  rotate: false
+  xy: 2, 75
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+300200_we
+  rotate: true
+  xy: 87, 85
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+300200_weibagen
+  rotate: false
+  xy: 2, 35
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+300200_weibajian
+  rotate: false
+  xy: 218, 203
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+300200_ws
+  rotate: false
+  xy: 91, 191
+  size: 17, 18
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+300200_wxb
+  rotate: true
+  xy: 2, 12
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+300200_wy
+  rotate: false
+  xy: 2, 211
+  size: 94, 43
+  orig: 94, 43
+  offset: 0, 0
+  index: -1
+300200_xsyf
+  rotate: false
+  xy: 98, 218
+  size: 72, 36
+  orig: 72, 37
+  offset: 0, 0
+  index: -1
+300200_yj
+  rotate: true
+  xy: 51, 85
+  size: 31, 10
+  orig: 31, 10
+  offset: 0, 0
+  index: -1
+300200_yl
+  rotate: false
+  xy: 2, 118
+  size: 57, 41
+  orig: 57, 41
+  offset: 0, 0
+  index: -1
+300200_zss
+  rotate: false
+  xy: 91, 174
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+300200_zuibai
+  rotate: false
+  xy: 2, 2
+  size: 29, 8
+  orig: 29, 8
+  offset: 0, 0
+  index: -1

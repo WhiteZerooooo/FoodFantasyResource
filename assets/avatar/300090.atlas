@@ -1,0 +1,41 @@
+
+300090_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buhou
+  rotate: false
+  xy: 2, 2
+  size: 75, 44
+  orig: 75, 44
+  offset: 0, 0
+  index: -1
+buqian
+  rotate: false
+  xy: 152, 152
+  size: 87, 43
+  orig: 87, 43
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 152, 197
+  size: 96, 57
+  orig: 96, 57
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 2, 48
+  size: 110, 66
+  orig: 110, 66
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 116
+  size: 148, 138
+  orig: 148, 138
+  offset: 0, 0
+  index: -1

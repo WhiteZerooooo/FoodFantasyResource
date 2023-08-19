@@ -1,0 +1,41 @@
+
+500590_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500590_1
+  rotate: false
+  xy: 200, 357
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+500590_2
+  rotate: false
+  xy: 2, 2
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+500590_3
+  rotate: false
+  xy: 163, 167
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+avator_frame_500590
+  rotate: false
+  xy: 2, 189
+  size: 196, 196
+  orig: 210, 210
+  offset: 9, 7
+  index: -1
+guang1
+  rotate: false
+  xy: 2, 28
+  size: 159, 159
+  orig: 200, 200
+  offset: 16, 21
+  index: -1

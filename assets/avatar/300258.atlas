@@ -1,0 +1,41 @@
+
+300258_p1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+300122_01
+  rotate: false
+  xy: 93, 51
+  size: 91, 52
+  orig: 91, 52
+  offset: 0, 0
+  index: -1
+300122_02
+  rotate: false
+  xy: 186, 63
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+300122_03
+  rotate: false
+  xy: 2, 17
+  size: 89, 86
+  orig: 89, 86
+  offset: 0, 0
+  index: -1
+300122_by
+  rotate: false
+  xy: 2, 2
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+300122_zy
+  rotate: false
+  xy: 228, 79
+  size: 26, 24
+  orig: 26, 24
+  offset: 0, 0
+  index: -1

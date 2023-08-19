@@ -1,0 +1,13 @@
+
+500232_1.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anime_500232_leaf
+  rotate: false
+  xy: 0, 0
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,153 @@
+
+300212_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+300212_daijiyan
+  rotate: true
+  xy: 41, 96
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+300212_ldb
+  rotate: false
+  xy: 54, 117
+  size: 11, 22
+  orig: 11, 22
+  offset: 0, 0
+  index: -1
+300212_ldt
+  rotate: true
+  xy: 231, 244
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+300212_lxb
+  rotate: false
+  xy: 97, 174
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+300212_lxt
+  rotate: false
+  xy: 204, 227
+  size: 9, 13
+  orig: 10, 13
+  offset: 1, 0
+  index: -1
+300212_meimao
+  rotate: true
+  xy: 113, 202
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+300212_meimao1
+  rotate: true
+  xy: 157, 220
+  size: 15, 33
+  orig: 15, 33
+  offset: 0, 0
+  index: -1
+300212_shoujiyan
+  rotate: false
+  xy: 2, 2
+  size: 25, 8
+  orig: 25, 8
+  offset: 0, 0
+  index: -1
+300212_st
+  rotate: false
+  xy: 2, 122
+  size: 50, 77
+  orig: 50, 77
+  offset: 0, 0
+  index: -1
+300212_thl01
+  rotate: false
+  xy: 54, 141
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+300212_thl02
+  rotate: false
+  xy: 54, 174
+  size: 41, 25
+  orig: 41, 25
+  offset: 0, 0
+  index: -1
+300212_thl03
+  rotate: false
+  xy: 2, 76
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+300212_thl04
+  rotate: true
+  xy: 157, 237
+  size: 17, 45
+  orig: 17, 45
+  offset: 0, 0
+  index: -1
+300212_thl05
+  rotate: false
+  xy: 2, 34
+  size: 18, 40
+  orig: 18, 40
+  offset: 0, 0
+  index: -1
+300212_thl06
+  rotate: false
+  xy: 113, 214
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+300212_wdb
+  rotate: true
+  xy: 2, 12
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+300212_wdt
+  rotate: false
+  xy: 80, 151
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+300212_wq
+  rotate: false
+  xy: 2, 201
+  size: 109, 53
+  orig: 109, 53
+  offset: 0, 0
+  index: -1
+300212_wxb
+  rotate: false
+  xy: 204, 242
+  size: 25, 12
+  orig: 25, 12
+  offset: 0, 0
+  index: -1
+300212_wxt
+  rotate: false
+  xy: 192, 220
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+300212_zuiba
+  rotate: true
+  xy: 41, 82
+  size: 12, 7
+  orig: 12, 7
+  offset: 0, 0
+  index: -1

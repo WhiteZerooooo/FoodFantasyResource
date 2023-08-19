@@ -1,0 +1,55 @@
+
+300009_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ci1
+  rotate: false
+  xy: 2, 2
+  size: 61, 24
+  orig: 61, 24
+  offset: 0, 0
+  index: -1
+ci2
+  rotate: false
+  xy: 2, 28
+  size: 64, 36
+  orig: 64, 36
+  offset: 0, 0
+  index: -1
+ci3
+  rotate: false
+  xy: 153, 171
+  size: 40, 51
+  orig: 40, 51
+  offset: 0, 0
+  index: -1
+ke
+  rotate: false
+  xy: 2, 99
+  size: 149, 123
+  orig: 149, 123
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 66
+  size: 163, 31
+  orig: 163, 31
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 68, 45
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 153, 154
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1

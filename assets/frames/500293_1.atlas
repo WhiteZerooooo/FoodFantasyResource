@@ -1,0 +1,27 @@
+
+500293_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_2
+  rotate: false
+  xy: 39, 97
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+wire_long
+  rotate: false
+  xy: 2, 2
+  size: 14, 126
+  orig: 14, 126
+  offset: 0, 0
+  index: -1
+wire_short
+  rotate: false
+  xy: 18, 79
+  size: 19, 49
+  orig: 19, 49
+  offset: 0, 0
+  index: -1

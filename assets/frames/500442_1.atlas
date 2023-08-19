@@ -1,0 +1,27 @@
+
+500442_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 72, 86
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 48
+  size: 68, 68
+  orig: 100, 100
+  offset: 14, 18
+  index: -1
+personal_information_icon_funtoy
+  rotate: true
+  xy: 2, 2
+  size: 44, 66
+  orig: 44, 66
+  offset: 0, 0
+  index: -1

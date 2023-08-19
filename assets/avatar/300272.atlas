@@ -1,0 +1,76 @@
+
+300272_p1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudiejie
+  rotate: false
+  xy: 267, 211
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+j1
+  rotate: false
+  xy: 2, 2
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+j2
+  rotate: false
+  xy: 319, 215
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+liuhai
+  rotate: false
+  xy: 2, 38
+  size: 119, 50
+  orig: 119, 50
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 90
+  size: 154, 162
+  orig: 154, 162
+  offset: 0, 0
+  index: -1
+tuzi
+  rotate: false
+  xy: 158, 146
+  size: 107, 106
+  orig: 107, 106
+  offset: 0, 0
+  index: -1
+youbianzi
+  rotate: true
+  xy: 123, 48
+  size: 40, 29
+  orig: 40, 29
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 158, 102
+  size: 42, 69
+  orig: 42, 69
+  offset: 0, 0
+  index: -1
+zuobianzi
+  rotate: true
+  xy: 229, 103
+  size: 41, 28
+  orig: 41, 28
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 267, 166
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1

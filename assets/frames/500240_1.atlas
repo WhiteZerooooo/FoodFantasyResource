@@ -1,0 +1,27 @@
+
+500240_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng
+  rotate: false
+  xy: 0, 56
+  size: 67, 79
+  orig: 67, 79
+  offset: 0, 0
+  index: -1
+deng_light
+  rotate: false
+  xy: 67, 66
+  size: 68, 69
+  orig: 68, 69
+  offset: 0, 0
+  index: -1
+flo
+  rotate: false
+  xy: 0, 23
+  size: 27, 33
+  orig: 29, 35
+  offset: 1, 0
+  index: -1

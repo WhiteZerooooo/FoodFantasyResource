@@ -1,0 +1,76 @@
+
+300116.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 81, 170
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+fazhang
+  rotate: false
+  xy: 2, 60
+  size: 22, 106
+  orig: 22, 106
+  offset: 0, 0
+  index: -1
+shengti
+  rotate: false
+  xy: 81, 182
+  size: 65, 49
+  orig: 65, 49
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 168
+  size: 77, 63
+  orig: 77, 63
+  offset: 0, 0
+  index: -1
+toupeng
+  rotate: true
+  xy: 26, 100
+  size: 66, 39
+  orig: 66, 39
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 182, 215
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 148, 194
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+zhengyan
+  rotate: true
+  xy: 2, 26
+  size: 32, 15
+  orig: 32, 15
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 2, 2
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 26, 61
+  size: 25, 37
+  orig: 25, 37
+  offset: 0, 0
+  index: -1

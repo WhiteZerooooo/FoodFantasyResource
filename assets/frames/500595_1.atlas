@@ -1,0 +1,27 @@
+
+500595_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avator_frame_500595
+  rotate: false
+  xy: 2, 45
+  size: 210, 208
+  orig: 210, 210
+  offset: 0, 2
+  index: -1
+avator_frame_500595_1
+  rotate: false
+  xy: 2, 2
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+avator_frame_500595_2
+  rotate: false
+  xy: 214, 225
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1

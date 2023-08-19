@@ -1,0 +1,55 @@
+
+300087_p1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+300087_jiao
+  rotate: false
+  xy: 31, 30
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+300087_lichi
+  rotate: true
+  xy: 56, 96
+  size: 28, 47
+  orig: 28, 47
+  offset: 0, 0
+  index: -1
+300087_shenti
+  rotate: false
+  xy: 2, 57
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+300087_shouji
+  rotate: true
+  xy: 2, 13
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+300087_siwang
+  rotate: true
+  xy: 105, 97
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+300087_waichi
+  rotate: false
+  xy: 2, 95
+  size: 52, 29
+  orig: 52, 29
+  offset: 0, 0
+  index: -1
+300087_yanjing
+  rotate: true
+  xy: 44, 68
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1

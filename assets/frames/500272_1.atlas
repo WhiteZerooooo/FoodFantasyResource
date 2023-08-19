@@ -1,0 +1,34 @@
+
+500272_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avator_frame_500272
+  rotate: false
+  xy: 2, 19
+  size: 207, 205
+  orig: 210, 210
+  offset: 3, 3
+  index: -1
+pao
+  rotate: false
+  xy: 383, 176
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 211, 64
+  size: 170, 160
+  orig: 171, 160
+  offset: 1, 0
+  index: -1
+watermian
+  rotate: false
+  xy: 2, 2
+  size: 171, 15
+  orig: 171, 17
+  offset: 0, 0
+  index: -1

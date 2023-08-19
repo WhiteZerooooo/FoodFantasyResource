@@ -1,0 +1,27 @@
+
+500163_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+assets/anime_500163_drop
+  rotate: false
+  xy: 39, 77
+  size: 12, 24
+  orig: 12, 24
+  offset: 0, 0
+  index: -1
+assets/anime_500163_star_1
+  rotate: false
+  xy: 2, 49
+  size: 35, 52
+  orig: 35, 52
+  offset: 0, 0
+  index: -1
+assets/anime_500163_star_2
+  rotate: false
+  xy: 2, 2
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+500515_1.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h1
+  rotate: false
+  xy: 25, 13
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+h2
+  rotate: false
+  xy: 59, 24
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+h3
+  rotate: false
+  xy: 46, 21
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 2, 35
+  size: 26, 75
+  orig: 26, 75
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 2, 4
+  size: 21, 29
+  orig: 21, 29
+  offset: 0, 0
+  index: -1
+s3
+  rotate: true
+  xy: 79, 2
+  size: 59, 42
+  orig: 59, 42
+  offset: 0, 0
+  index: -1

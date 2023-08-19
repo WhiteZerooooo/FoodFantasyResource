@@ -1,0 +1,48 @@
+
+300115.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiyan
+  rotate: false
+  xy: 87, 128
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 97
+  size: 83, 92
+  orig: 83, 92
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: false
+  xy: 2, 42
+  size: 50, 53
+  orig: 50, 53
+  offset: 0, 0
+  index: -1
+youchibang
+  rotate: false
+  xy: 2, 2
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+zhengyan
+  rotate: false
+  xy: 54, 86
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+zuochibang
+  rotate: false
+  xy: 87, 138
+  size: 23, 51
+  orig: 23, 51
+  offset: 0, 0
+  index: -1

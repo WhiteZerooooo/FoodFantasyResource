@@ -1,0 +1,76 @@
+
+300266_p1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 178, 109
+  size: 31, 37
+  orig: 31, 37
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 286, 149
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 150, 49
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 407, 210
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
+bu
+  rotate: false
+  xy: 2, 93
+  size: 174, 159
+  orig: 174, 159
+  offset: 0, 0
+  index: -1
+buyou
+  rotate: true
+  xy: 2, 2
+  size: 89, 146
+  orig: 89, 146
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 286, 178
+  size: 119, 74
+  orig: 119, 74
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: false
+  xy: 178, 148
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 211, 125
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 150, 21
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1

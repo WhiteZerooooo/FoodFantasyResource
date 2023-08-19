@@ -1,0 +1,55 @@
+
+500510_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500510_flower_1
+  rotate: true
+  xy: 2, 2
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+500510_flower_2
+  rotate: false
+  xy: 204, 103
+  size: 62, 54
+  orig: 62, 54
+  offset: 0, 0
+  index: -1
+500510_petal_1
+  rotate: false
+  xy: 204, 66
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+500510_petal_2
+  rotate: false
+  xy: 301, 213
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+500510_petal_3
+  rotate: false
+  xy: 268, 124
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+G
+  rotate: false
+  xy: 204, 159
+  size: 95, 94
+  orig: 100, 100
+  offset: 3, 0
+  index: -1
+avator_frame_500510
+  rotate: false
+  xy: 2, 48
+  size: 200, 205
+  orig: 210, 210
+  offset: 5, 2
+  index: -1

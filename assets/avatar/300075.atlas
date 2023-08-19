@@ -1,0 +1,48 @@
+
+300075_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lei
+  rotate: false
+  xy: 150, 205
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 80, 48
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+quan2
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+ti
+  rotate: false
+  xy: 2, 66
+  size: 146, 175
+  orig: 146, 175
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 150, 220
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 2, 23
+  size: 76, 41
+  orig: 76, 41
+  offset: 0, 0
+  index: -1

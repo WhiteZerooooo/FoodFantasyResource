@@ -1,0 +1,27 @@
+
+500574_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500574_1
+  rotate: true
+  xy: 2, 2
+  size: 17, 72
+  orig: 17, 73
+  offset: 0, 1
+  index: -1
+500574_2
+  rotate: false
+  xy: 109, 52
+  size: 12, 74
+  orig: 12, 84
+  offset: 0, 0
+  index: -1
+avator_frame_500574
+  rotate: false
+  xy: 2, 21
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+300113.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanxiang
+  rotate: false
+  xy: 2, 40
+  size: 53, 86
+  orig: 53, 86
+  offset: 0, 0
+  index: -1
+shengti
+  rotate: false
+  xy: 57, 64
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 101, 112
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 101, 99
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 57, 48
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 2, 25
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 2, 10
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1

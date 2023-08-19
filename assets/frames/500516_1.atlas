@@ -1,0 +1,90 @@
+
+500516_1.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 508, 45
+  size: 85, 72
+  orig: 102, 102
+  offset: 7, 17
+  index: -1
+chazi
+  rotate: true
+  xy: 160, 82
+  size: 35, 134
+  orig: 35, 134
+  offset: 0, 0
+  index: -1
+gaizi
+  rotate: false
+  xy: 595, 88
+  size: 82, 29
+  orig: 82, 29
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: true
+  xy: 160, 39
+  size: 41, 125
+  orig: 41, 125
+  offset: 0, 0
+  index: -1
+piaodai_2
+  rotate: false
+  xy: 2, 2
+  size: 156, 115
+  orig: 156, 115
+  offset: 0, 0
+  index: -1
+piaodai_3
+  rotate: false
+  xy: 595, 64
+  size: 78, 22
+  orig: 78, 22
+  offset: 0, 0
+  index: -1
+shaomai
+  rotate: false
+  xy: 160, 6
+  size: 81, 31
+  orig: 81, 31
+  offset: 0, 0
+  index: -1
+shaozi
+  rotate: true
+  xy: 296, 84
+  size: 33, 109
+  orig: 33, 109
+  offset: 0, 0
+  index: -1
+tangshao
+  rotate: true
+  xy: 407, 70
+  size: 47, 99
+  orig: 47, 99
+  offset: 0, 0
+  index: -1
+x_2
+  rotate: false
+  xy: 243, 8
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+xx_1
+  rotate: true
+  xy: 679, 65
+  size: 52, 55
+  orig: 52, 55
+  offset: 0, 0
+  index: -1
+zl
+  rotate: false
+  xy: 736, 86
+  size: 52, 31
+  orig: 52, 31
+  offset: 0, 0
+  index: -1

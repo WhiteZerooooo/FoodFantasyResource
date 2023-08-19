@@ -1,0 +1,69 @@
+
+300268_p1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houbai
+  rotate: true
+  xy: 406, 148
+  size: 106, 62
+  orig: 106, 62
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 2, 108
+  size: 209, 146
+  orig: 209, 146
+  offset: 0, 0
+  index: -1
+maozihou
+  rotate: false
+  xy: 213, 146
+  size: 191, 108
+  orig: 191, 108
+  offset: 0, 0
+  index: -1
+pingzi
+  rotate: false
+  xy: 2, 2
+  size: 106, 104
+  orig: 106, 104
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: true
+  xy: 213, 2
+  size: 142, 137
+  orig: 142, 137
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 352, 94
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 110, 56
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 110, 56
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 110, 10
+  size: 48, 44
+  orig: 48, 44
+  offset: 0, 0
+  index: -1

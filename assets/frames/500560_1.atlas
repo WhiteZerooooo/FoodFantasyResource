@@ -1,0 +1,41 @@
+
+500560_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avator_frame_500560_1
+  rotate: false
+  xy: 2, 95
+  size: 209, 204
+  orig: 209, 204
+  offset: 0, 0
+  index: -1
+avator_frame_500560_2
+  rotate: false
+  xy: 2, 2
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+avator_frame_500560_3
+  rotate: false
+  xy: 213, 261
+  size: 23, 38
+  orig: 23, 38
+  offset: 0, 0
+  index: -1
+avator_frame_500560_4
+  rotate: false
+  xy: 64, 75
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+avator_frame_500560_5
+  rotate: false
+  xy: 2, 33
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+500214_1.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anime_500214_leaf
+  rotate: false
+  xy: 0, 0
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1

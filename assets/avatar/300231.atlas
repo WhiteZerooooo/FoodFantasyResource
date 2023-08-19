@@ -1,0 +1,62 @@
+
+300231_p1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hw
+  rotate: false
+  xy: 137, 57
+  size: 45, 10
+  orig: 45, 10
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 231, 102
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 196, 82
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+m3
+  rotate: false
+  xy: 137, 69
+  size: 57, 52
+  orig: 57, 52
+  offset: 0, 0
+  index: -1
+m4
+  rotate: true
+  xy: 2, 46
+  size: 75, 133
+  orig: 75, 133
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 2, 2
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+yj
+  rotate: false
+  xy: 53, 29
+  size: 35, 15
+  orig: 35, 15
+  offset: 0, 0
+  index: -1
+z
+  rotate: false
+  xy: 196, 70
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1

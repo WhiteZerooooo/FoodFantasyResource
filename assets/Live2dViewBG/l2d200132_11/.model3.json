@@ -1,0 +1,97 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "l2d200132_11.moc3",
+    "Textures": [
+      "l2d200132_11.2048/texture_00.png"
+    ],
+    "Physics": "l2d200132_11.physics3.json",
+    "PhysicsV2": {
+      "File": "l2d200132_11.physics3.json"
+    },
+    "Motions": {
+      "Tap": [
+        {
+          "File": "touch1.motion3.json",
+          "Sound": "role_251_0003.wav",
+          "Text": "你！你怎么能随意触碰未来的王者呢！"
+        },
+        {
+          "File": "touch2.motion3.json",
+          "Sound": "role_251_0004.wav",
+          "Text": "唔……我，我才没有睡着！"
+        },
+        {
+          "File": "touch3.motion3.json",
+          "Sound": "role_251_0005.wav",
+          "Text": "强健的体魄是一个王者应有的基本条件！我会变得更加强壮起来的！"
+        },
+        {
+          "File": "vow1.motion3.json",
+          "Sound": "role_251_0006.wav",
+          "Text": "你……偶尔没事的时候也可以来找我的……"
+        },
+        {
+          "File": "vow2.motion3.json",
+          "Sound": "role_251_0007.wav",
+          "Text": "总有一天，我会更可靠的，那时候，能不能更依赖我一些呢？"
+        },
+        {
+          "File": "vow3.motion3.json",
+          "Sound": "role_251_0008.wav",
+          "Text": "我，我才没有偷偷哭呢！"
+        }
+      ],
+      "Tick": [
+        {
+          "File": "idle.motion3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {}
+}

@@ -1,0 +1,734 @@
+
+200105_p1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianziyou
+  rotate: true
+  xy: 268, 752
+  size: 34, 50
+  orig: 34, 50
+  offset: 0, 0
+  index: -1
+bianzizuo
+  rotate: true
+  xy: 918, 716
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+chiya
+  rotate: false
+  xy: 707, 583
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+effect/attack/qianghuo/qianghuo_1_26
+  rotate: true
+  xy: 221, 746
+  size: 60, 47
+  orig: 72, 57
+  offset: 5, 4
+  index: -1
+effect/attack/qianghuo/qianghuo_1_27
+  rotate: true
+  xy: 919, 748
+  size: 59, 47
+  orig: 72, 57
+  offset: 6, 4
+  index: -1
+effect/attack/qianghuo/qianghuo_1_29
+  rotate: false
+  xy: 966, 766
+  size: 58, 46
+  orig: 72, 57
+  offset: 6, 5
+  index: -1
+effect/attack/qianghuo/qianghuo_1_30
+  rotate: false
+  xy: 966, 721
+  size: 57, 45
+  orig: 72, 57
+  offset: 6, 5
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_26
+  rotate: false
+  xy: 966, 665
+  size: 44, 21
+  orig: 113, 118
+  offset: 6, 48
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_29
+  rotate: false
+  xy: 851, 680
+  size: 48, 43
+  orig: 113, 118
+  offset: 32, 39
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_31
+  rotate: false
+  xy: 166, 546
+  size: 55, 66
+  orig: 113, 118
+  offset: 40, 27
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_33
+  rotate: true
+  xy: 727, 728
+  size: 71, 88
+  orig: 113, 118
+  offset: 34, 16
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_35
+  rotate: false
+  xy: 140, 795
+  size: 81, 92
+  orig: 113, 118
+  offset: 28, 14
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_37
+  rotate: true
+  xy: 67, 546
+  size: 66, 99
+  orig: 113, 118
+  offset: 29, 6
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_39
+  rotate: false
+  xy: 946, 920
+  size: 67, 104
+  orig: 113, 118
+  offset: 28, 0
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_41
+  rotate: false
+  xy: 707, 498
+  size: 58, 85
+  orig: 113, 118
+  offset: 33, 0
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_43
+  rotate: true
+  xy: 139, 746
+  size: 49, 74
+  orig: 113, 118
+  offset: 33, 9
+  index: -1
+effect/attack/qianghuo/qianghuo_xian_45
+  rotate: false
+  xy: 733, 462
+  size: 32, 36
+  orig: 113, 118
+  offset: 39, 41
+  index: -1
+effect/gg_00
+  rotate: false
+  xy: 859, 748
+  size: 60, 59
+  orig: 63, 63
+  offset: 0, 2
+  index: -1
+effect/skill2/shifa/shifa_b_11
+  rotate: false
+  xy: 0, 885
+  size: 140, 139
+  orig: 149, 148
+  offset: 7, 0
+  index: -1
+effect/skill2/shifa/shifa_b_13
+  rotate: false
+  xy: 0, 746
+  size: 139, 139
+  orig: 149, 148
+  offset: 7, 0
+  index: -1
+effect/skill2/shifa/shifa_b_15
+  rotate: false
+  xy: 140, 887
+  size: 137, 137
+  orig: 149, 148
+  offset: 7, 0
+  index: -1
+effect/skill2/shifa/shifa_b_17
+  rotate: false
+  xy: 412, 893
+  size: 135, 131
+  orig: 149, 148
+  offset: 7, 0
+  index: -1
+effect/skill2/shifa/shifa_b_19
+  rotate: true
+  xy: 67, 612
+  size: 134, 130
+  orig: 149, 148
+  offset: 7, 0
+  index: -1
+effect/skill2/shifa/shifa_b_21
+  rotate: false
+  xy: 547, 892
+  size: 134, 132
+  orig: 149, 148
+  offset: 6, 0
+  index: -1
+effect/skill2/shifa/shifa_b_23
+  rotate: false
+  xy: 277, 891
+  size: 135, 133
+  orig: 149, 148
+  offset: 5, 0
+  index: -1
+effect/skill2/shifa/shifa_b_25
+  rotate: false
+  xy: 681, 891
+  size: 133, 133
+  orig: 149, 148
+  offset: 5, 0
+  index: -1
+effect/skill2/shifa/shifa_b_27
+  rotate: false
+  xy: 814, 891
+  size: 132, 133
+  orig: 149, 148
+  offset: 6, 0
+  index: -1
+effect/skill2/shifa/shifa_b_29
+  rotate: true
+  xy: 0, 410
+  size: 133, 132
+  orig: 149, 148
+  offset: 6, 0
+  index: -1
+effect/skill2/shifa/shifa_b_31
+  rotate: false
+  xy: 0, 31
+  size: 128, 125
+  orig: 149, 148
+  offset: 11, 0
+  index: -1
+effect/skill2/shifa/shifa_b_33
+  rotate: false
+  xy: 0, 156
+  size: 128, 126
+  orig: 149, 148
+  offset: 12, 0
+  index: -1
+effect/skill2/shifa/shifa_b_35
+  rotate: false
+  xy: 0, 282
+  size: 128, 128
+  orig: 149, 148
+  offset: 13, 0
+  index: -1
+effect/skill2/shifa/shifa_b_37
+  rotate: false
+  xy: 197, 620
+  size: 125, 126
+  orig: 149, 148
+  offset: 15, 2
+  index: -1
+effect/skill2/shifa/shifa_b_39
+  rotate: false
+  xy: 322, 660
+  size: 125, 126
+  orig: 149, 148
+  offset: 16, 3
+  index: -1
+effect/skill2/shifa/shifa_b_41
+  rotate: true
+  xy: 322, 539
+  size: 121, 125
+  orig: 149, 148
+  offset: 18, 2
+  index: -1
+effect/skill2/shifa/shifa_b_43
+  rotate: false
+  xy: 222, 390
+  size: 117, 114
+  orig: 149, 148
+  offset: 18, 4
+  index: -1
+effect/skill2/shifa/shifa_b_45
+  rotate: false
+  xy: 515, 788
+  size: 113, 104
+  orig: 149, 148
+  offset: 19, 6
+  index: -1
+effect/skill2/shifa/shifa_b_47
+  rotate: true
+  xy: 339, 427
+  size: 112, 107
+  orig: 149, 148
+  offset: 20, 3
+  index: -1
+effect/skill2/shifa/shifa_b_49
+  rotate: false
+  xy: 628, 784
+  size: 99, 107
+  orig: 149, 148
+  offset: 30, 2
+  index: -1
+effect/skill2/shifa/shifa_xian_28
+  rotate: true
+  xy: 808, 672
+  size: 56, 24
+  orig: 136, 107
+  offset: 34, 4
+  index: -1
+effect/skill2/shifa/shifa_xian_30
+  rotate: false
+  xy: 946, 885
+  size: 69, 35
+  orig: 136, 107
+  offset: 31, 2
+  index: -1
+effect/skill2/shifa/shifa_xian_32
+  rotate: true
+  xy: 815, 729
+  size: 70, 44
+  orig: 136, 107
+  offset: 33, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_34
+  rotate: true
+  xy: 765, 502
+  size: 81, 60
+  orig: 136, 107
+  offset: 28, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_36
+  rotate: false
+  xy: 539, 492
+  size: 94, 75
+  orig: 136, 107
+  offset: 23, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_38
+  rotate: false
+  xy: 835, 807
+  size: 109, 84
+  orig: 136, 107
+  offset: 15, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_40
+  rotate: true
+  xy: 539, 567
+  size: 112, 91
+  orig: 136, 107
+  offset: 15, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_42
+  rotate: false
+  xy: 727, 799
+  size: 108, 92
+  orig: 136, 107
+  offset: 18, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_44
+  rotate: false
+  xy: 404, 786
+  size: 111, 105
+  orig: 136, 107
+  offset: 14, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_46
+  rotate: true
+  xy: 628, 679
+  size: 105, 92
+  orig: 136, 107
+  offset: 12, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_48
+  rotate: true
+  xy: 447, 541
+  size: 121, 92
+  orig: 136, 107
+  offset: 3, 1
+  index: -1
+effect/skill2/shifa/shifa_xian_50
+  rotate: false
+  xy: 277, 786
+  size: 127, 105
+  orig: 136, 107
+  offset: 0, 2
+  index: -1
+effect/skill2/shifa/shifa_xian_52
+  rotate: true
+  xy: 132, 416
+  size: 130, 90
+  orig: 136, 107
+  offset: 2, 3
+  index: -1
+effect/skill2/shifa/shifa_xian_54
+  rotate: true
+  xy: 222, 504
+  size: 116, 100
+  orig: 136, 107
+  offset: 20, 6
+  index: -1
+effect/skill2/shifa/shifa_xian_56
+  rotate: true
+  xy: 447, 662
+  size: 124, 81
+  orig: 136, 107
+  offset: 12, 9
+  index: -1
+effect/skill2/shifa/shifa_xian_58
+  rotate: false
+  xy: 720, 654
+  size: 88, 74
+  orig: 136, 107
+  offset: 3, 10
+  index: -1
+effect/skill2/shifa/shifa_xian_60
+  rotate: true
+  xy: 633, 498
+  size: 91, 74
+  orig: 136, 107
+  offset: 0, 11
+  index: -1
+effect/skill2/shifa/shifa_xian_62
+  rotate: false
+  xy: 719, 583
+  size: 84, 71
+  orig: 136, 107
+  offset: 2, 17
+  index: -1
+effect/skill2/shifa/shifa_xian_64
+  rotate: false
+  xy: 966, 686
+  size: 44, 35
+  orig: 136, 107
+  offset: 43, 23
+  index: -1
+hongyun
+  rotate: false
+  xy: 268, 746
+  size: 43, 6
+  orig: 44, 7
+  offset: 1, 1
+  index: -1
+hudiejie
+  rotate: true
+  xy: 322, 514
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+huizhang
+  rotate: false
+  xy: 528, 667
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+hutuiyou
+  rotate: false
+  xy: 995, 823
+  size: 28, 62
+  orig: 28, 62
+  offset: 0, 0
+  index: -1
+hutuizuo
+  rotate: false
+  xy: 832, 673
+  size: 19, 56
+  orig: 19, 56
+  offset: 0, 0
+  index: -1
+kua
+  rotate: true
+  xy: 801, 459
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 630, 589
+  size: 89, 90
+  orig: 89, 90
+  offset: 0, 0
+  index: -1
+liuhaiyou1
+  rotate: false
+  xy: 438, 377
+  size: 25, 50
+  orig: 25, 50
+  offset: 0, 0
+  index: -1
+liuhaiyou2
+  rotate: true
+  xy: 0, 0
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+liuhaiyou3
+  rotate: true
+  xy: 859, 723
+  size: 25, 59
+  orig: 25, 59
+  offset: 0, 0
+  index: -1
+liuhaiyou4
+  rotate: false
+  xy: 446, 459
+  size: 16, 33
+  orig: 16, 33
+  offset: 0, 0
+  index: -1
+liuhaizuo1
+  rotate: true
+  xy: 633, 475
+  size: 23, 50
+  orig: 23, 50
+  offset: 0, 0
+  index: -1
+liuhaizuo2
+  rotate: false
+  xy: 61, 0
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+liuhaizuo3
+  rotate: false
+  xy: 1013, 947
+  size: 11, 34
+  orig: 11, 34
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: true
+  xy: 944, 812
+  size: 73, 51
+  orig: 73, 51
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: true
+  xy: 221, 806
+  size: 81, 56
+  orig: 81, 56
+  offset: 0, 0
+  index: -1
+maozi3
+  rotate: false
+  xy: 339, 373
+  size: 99, 54
+  orig: 99, 54
+  offset: 0, 0
+  index: -1
+mei
+  rotate: true
+  xy: 213, 751
+  size: 44, 5
+  orig: 44, 5
+  offset: 0, 0
+  index: -1
+meibei
+  rotate: true
+  xy: 720, 741
+  size: 43, 5
+  orig: 43, 5
+  offset: 0, 0
+  index: -1
+meinu
+  rotate: true
+  xy: 1010, 683
+  size: 38, 6
+  orig: 38, 6
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: false
+  xy: 0, 543
+  size: 67, 203
+  orig: 67, 203
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: false
+  xy: 765, 465
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: true
+  xy: 528, 679
+  size: 109, 100
+  orig: 109, 100
+  offset: 0, 0
+  index: -1
+yanbi
+  rotate: true
+  xy: 1015, 899
+  size: 48, 9
+  orig: 48, 9
+  offset: 0, 0
+  index: -1
+yanyun
+  rotate: true
+  xy: 1013, 981
+  size: 43, 11
+  orig: 43, 11
+  offset: 0, 0
+  index: -1
+yanza
+  rotate: true
+  xy: 899, 674
+  size: 49, 19
+  orig: 49, 19
+  offset: 0, 0
+  index: -1
+yanzheng
+  rotate: false
+  xy: 683, 475
+  size: 50, 23
+  orig: 50, 24
+  offset: 0, 1
+  index: -1
+youbi
+  rotate: false
+  xy: 128, 310
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1
+youdatuixidai1
+  rotate: false
+  xy: 835, 799
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1
+youdatuixidai2
+  rotate: false
+  xy: 995, 816
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: true
+  xy: 446, 427
+  size: 32, 39
+  orig: 32, 39
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 128, 364
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 463, 385
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+youwaitao
+  rotate: true
+  xy: 132, 392
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+youxiuzi
+  rotate: false
+  xy: 128, 336
+  size: 20, 28
+  orig: 20, 28
+  offset: 0, 0
+  index: -1
+yumao
+  rotate: true
+  xy: 918, 675
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+zuiA
+  rotate: false
+  xy: 851, 723
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+zuibi
+  rotate: false
+  xy: 67, 543
+  size: 8, 3
+  orig: 8, 3
+  offset: 0, 0
+  index: -1
+zuizhang
+  rotate: false
+  xy: 322, 504
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 128, 285
+  size: 18, 25
+  orig: 18, 25
+  offset: 0, 0
+  index: -1
+zuodatuixidai1
+  rotate: false
+  xy: 808, 659
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+zuodatuixidai2
+  rotate: false
+  xy: 197, 612
+  size: 23, 8
+  orig: 23, 8
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: true
+  xy: 95, 4
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 169, 391
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 851, 655
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+zuowaitao
+  rotate: true
+  xy: 765, 443
+  size: 22, 36
+  orig: 22, 36
+  offset: 0, 0
+  index: -1
+zuoxiuzi
+  rotate: true
+  xy: 198, 396
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1

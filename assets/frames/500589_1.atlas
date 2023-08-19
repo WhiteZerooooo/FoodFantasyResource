@@ -1,0 +1,62 @@
+
+500589_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/500589_ball_1
+  rotate: false
+  xy: 208, 180
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+images/500589_ball_2
+  rotate: false
+  xy: 208, 123
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+images/500589_ball_3
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/500589_ribbon_1
+  rotate: true
+  xy: 265, 163
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+images/500589_ribbon_2
+  rotate: false
+  xy: 279, 215
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+images/500589_ribbon_3
+  rotate: false
+  xy: 52, 39
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+images/500589_ribbon_4
+  rotate: false
+  xy: 208, 97
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+images/avator_frame_500589
+  rotate: false
+  xy: 2, 52
+  size: 204, 197
+  orig: 210, 210
+  offset: 2, 11
+  index: -1

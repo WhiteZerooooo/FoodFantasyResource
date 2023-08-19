@@ -1,0 +1,216 @@
+
+500262_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/lizi0001
+  rotate: false
+  xy: 2, 173
+  size: 106, 112
+  orig: 152, 152
+  offset: 12, 23
+  index: -1
+effect/lizi0002
+  rotate: false
+  xy: 364, 411
+  size: 111, 98
+  orig: 152, 152
+  offset: 11, 25
+  index: -1
+effect/lizi0003
+  rotate: false
+  xy: 390, 200
+  size: 92, 93
+  orig: 152, 152
+  offset: 32, 20
+  index: -1
+effect/lizi0004
+  rotate: true
+  xy: 212, 81
+  size: 106, 93
+  orig: 152, 152
+  offset: 11, 22
+  index: -1
+effect/lizi0005
+  rotate: true
+  xy: 202, 189
+  size: 107, 92
+  orig: 152, 152
+  offset: 11, 25
+  index: -1
+effect/lizi0006
+  rotate: false
+  xy: 401, 100
+  size: 98, 98
+  orig: 152, 152
+  offset: 13, 24
+  index: -1
+effect/lizi0007
+  rotate: false
+  xy: 310, 309
+  size: 98, 100
+  orig: 152, 152
+  offset: 15, 28
+  index: -1
+effect/lizi0008
+  rotate: false
+  xy: 111, 69
+  size: 99, 109
+  orig: 152, 152
+  offset: 16, 24
+  index: -1
+effect/lizi0009
+  rotate: false
+  xy: 2, 59
+  size: 107, 112
+  orig: 152, 152
+  offset: 12, 27
+  index: -1
+effect/lizi0010
+  rotate: false
+  xy: 141, 298
+  size: 101, 109
+  orig: 152, 152
+  offset: 20, 24
+  index: -1
+effect/lizi0011
+  rotate: false
+  xy: 2, 287
+  size: 104, 117
+  orig: 152, 152
+  offset: 20, 21
+  index: -1
+effect/lizi0012
+  rotate: true
+  xy: 110, 180
+  size: 110, 90
+  orig: 152, 152
+  offset: 17, 22
+  index: -1
+effect/lizi0013
+  rotate: false
+  xy: 247, 413
+  size: 115, 96
+  orig: 152, 152
+  offset: 14, 21
+  index: -1
+effect/lizi0014
+  rotate: false
+  xy: 124, 409
+  size: 121, 100
+  orig: 152, 152
+  offset: 11, 23
+  index: -1
+effect/lizi0015
+  rotate: false
+  xy: 2, 406
+  size: 120, 103
+  orig: 152, 152
+  offset: 14, 26
+  index: -1
+effect/xialuo0001
+  rotate: true
+  xy: 443, 299
+  size: 110, 30
+  orig: 125, 36
+  offset: 3, 3
+  index: -1
+effect/xialuo0002
+  rotate: true
+  xy: 108, 292
+  size: 112, 31
+  orig: 125, 36
+  offset: 1, 3
+  index: -1
+effect/xialuo0003
+  rotate: true
+  xy: 277, 301
+  size: 110, 31
+  orig: 125, 36
+  offset: 4, 3
+  index: -1
+effect/xialuo0004
+  rotate: false
+  xy: 2, 25
+  size: 112, 32
+  orig: 125, 36
+  offset: 4, 3
+  index: -1
+effect/xialuo0005
+  rotate: true
+  xy: 477, 404
+  size: 105, 32
+  orig: 125, 36
+  offset: 12, 3
+  index: -1
+effect/xialuo0006
+  rotate: true
+  xy: 307, 81
+  size: 106, 29
+  orig: 125, 36
+  offset: 13, 4
+  index: -1
+effect/xialuo0007
+  rotate: true
+  xy: 359, 200
+  size: 107, 29
+  orig: 125, 36
+  offset: 12, 4
+  index: -1
+effect/xialuo0008
+  rotate: true
+  xy: 475, 295
+  size: 107, 30
+  orig: 125, 36
+  offset: 12, 3
+  index: -1
+effect/xialuo0009
+  rotate: true
+  xy: 338, 93
+  size: 104, 29
+  orig: 125, 36
+  offset: 12, 3
+  index: -1
+effect/xialuo0010
+  rotate: true
+  xy: 369, 94
+  size: 104, 30
+  orig: 125, 36
+  offset: 11, 3
+  index: -1
+effect/xialuo0011
+  rotate: false
+  xy: 212, 49
+  size: 105, 30
+  orig: 125, 36
+  offset: 10, 3
+  index: -1
+effect/xialuo0012
+  rotate: true
+  xy: 328, 199
+  size: 108, 29
+  orig: 125, 36
+  offset: 7, 4
+  index: -1
+effect/xialuo0013
+  rotate: true
+  xy: 410, 301
+  size: 108, 31
+  orig: 125, 36
+  offset: 7, 3
+  index: -1
+effect/xialuo0014
+  rotate: true
+  xy: 244, 298
+  size: 109, 31
+  orig: 125, 36
+  offset: 6, 3
+  index: -1
+effect/xialuo0015
+  rotate: true
+  xy: 296, 189
+  size: 110, 30
+  orig: 125, 36
+  offset: 4, 3
+  index: -1

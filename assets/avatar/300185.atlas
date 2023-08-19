@@ -1,0 +1,111 @@
+
+300185_p1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gh2biaoqing1
+  rotate: false
+  xy: 360, 442
+  size: 63, 37
+  orig: 63, 37
+  offset: 0, 0
+  index: -1
+gh2biaoqing2
+  rotate: false
+  xy: 2, 54
+  size: 70, 42
+  orig: 70, 42
+  offset: 0, 0
+  index: -1
+gh2shenti
+  rotate: false
+  xy: 2, 150
+  size: 96, 76
+  orig: 96, 76
+  offset: 0, 0
+  index: -1
+gh2tou
+  rotate: false
+  xy: 304, 417
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+gh3biaoqing
+  rotate: false
+  xy: 134, 344
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+gh3biaoqing2
+  rotate: false
+  xy: 224, 378
+  size: 57, 36
+  orig: 57, 36
+  offset: 0, 0
+  index: -1
+gh3shenti
+  rotate: false
+  xy: 224, 416
+  size: 78, 63
+  orig: 78, 63
+  offset: 0, 0
+  index: -1
+gh3tou
+  rotate: false
+  xy: 2, 2
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+gh4biaoqing
+  rotate: true
+  xy: 75, 102
+  size: 46, 23
+  orig: 46, 23
+  offset: 0, 0
+  index: -1
+gh4biaoqing2
+  rotate: true
+  xy: 110, 290
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+gh4shenti
+  rotate: false
+  xy: 2, 98
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+gh4tou
+  rotate: true
+  xy: 425, 442
+  size: 37, 50
+  orig: 37, 50
+  offset: 0, 0
+  index: -1
+gutexiao2
+  rotate: false
+  xy: 2, 342
+  size: 130, 137
+  orig: 131, 139
+  offset: 0, 1
+  index: -1
+gutexiao3
+  rotate: false
+  xy: 2, 228
+  size: 106, 112
+  orig: 107, 114
+  offset: 1, 1
+  index: -1
+gutexiao4
+  rotate: false
+  xy: 134, 378
+  size: 88, 101
+  orig: 89, 103
+  offset: 0, 1
+  index: -1

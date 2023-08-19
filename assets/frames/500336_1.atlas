@@ -1,0 +1,27 @@
+
+500336_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500336_leaf_1
+  rotate: false
+  xy: 212, 218
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+500336_leaf_2
+  rotate: false
+  xy: 1, 1
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+avator_frame_500336
+  rotate: false
+  xy: 1, 27
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1

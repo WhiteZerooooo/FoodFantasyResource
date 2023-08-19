@@ -1,0 +1,83 @@
+
+300280_p1.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: false
+  xy: 2, 5
+  size: 132, 121
+  orig: 132, 121
+  offset: 0, 0
+  index: -1
+cb01
+  rotate: true
+  xy: 136, 11
+  size: 115, 70
+  orig: 115, 70
+  offset: 0, 0
+  index: -1
+cb02
+  rotate: false
+  xy: 355, 74
+  size: 105, 52
+  orig: 105, 52
+  offset: 0, 0
+  index: -1
+cb03
+  rotate: true
+  xy: 279, 39
+  size: 87, 74
+  orig: 87, 74
+  offset: 0, 0
+  index: -1
+cb04
+  rotate: false
+  xy: 208, 21
+  size: 69, 105
+  orig: 69, 105
+  offset: 0, 0
+  index: -1
+daimao
+  rotate: true
+  xy: 366, 3
+  size: 69, 77
+  orig: 69, 77
+  offset: 0, 0
+  index: -1
+jiao01
+  rotate: false
+  xy: 279, 2
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+jiao02
+  rotate: false
+  xy: 341, 11
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+jiao03
+  rotate: false
+  xy: 315, 12
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 445, 4
+  size: 68, 65
+  orig: 68, 65
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 208, 9
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1

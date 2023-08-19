@@ -1,0 +1,55 @@
+
+300114.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: true
+  xy: 53, 83
+  size: 43, 73
+  orig: 43, 73
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 2, 33
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 48
+  size: 49, 78
+  orig: 49, 78
+  offset: 0, 0
+  index: -1
+yanji
+  rotate: false
+  xy: 53, 74
+  size: 20, 7
+  orig: 20, 7
+  offset: 0, 0
+  index: -1
+yanzheng
+  rotate: false
+  xy: 2, 24
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 53, 61
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 30, 33
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
