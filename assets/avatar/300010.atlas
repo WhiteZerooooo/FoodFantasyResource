@@ -1,0 +1,55 @@
+
+300010_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ke
+  rotate: false
+  xy: 2, 99
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 43
+  size: 70, 54
+  orig: 70, 54
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 74, 75
+  size: 22, 6
+  orig: 22, 6
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 94, 142
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 132, 160
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 2, 2
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 94, 120
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1

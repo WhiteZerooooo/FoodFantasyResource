@@ -1,0 +1,20 @@
+
+500311_1.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+leaf_1
+  rotate: true
+  xy: 2, 12
+  size: 17, 34
+  orig: 17, 34
+  offset: 0, 0
+  index: -1
+leaf_2
+  rotate: false
+  xy: 38, 2
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1

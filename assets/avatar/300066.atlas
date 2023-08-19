@@ -1,0 +1,76 @@
+
+300066_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mao1
+  rotate: true
+  xy: 39, 2
+  size: 12, 28
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 98, 95
+  size: 27, 38
+  orig: 28, 38
+  offset: 0, 0
+  index: -1
+mao3
+  rotate: false
+  xy: 226, 237
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+mao4
+  rotate: false
+  xy: 140, 172
+  size: 42, 13
+  orig: 42, 13
+  offset: 0, 0
+  index: -1
+mao5
+  rotate: false
+  xy: 2, 16
+  size: 45, 37
+  orig: 46, 37
+  offset: 1, 0
+  index: -1
+mao6
+  rotate: false
+  xy: 2, 55
+  size: 94, 78
+  orig: 94, 78
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 135
+  size: 136, 119
+  orig: 136, 119
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 140, 187
+  size: 49, 67
+  orig: 49, 67
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: false
+  xy: 2, 2
+  size: 35, 12
+  orig: 35, 12
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 191, 241
+  size: 33, 13
+  orig: 33, 13
+  offset: 0, 0
+  index: -1

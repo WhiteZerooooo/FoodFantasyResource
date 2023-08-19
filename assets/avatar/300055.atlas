@@ -1,0 +1,55 @@
+
+300055_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saihong
+  rotate: false
+  xy: 2, 106
+  size: 96, 17
+  orig: 97, 17
+  offset: 0, 0
+  index: -1
+san
+  rotate: false
+  xy: 2, 125
+  size: 151, 106
+  orig: 151, 106
+  offset: 0, 0
+  index: -1
+santou
+  rotate: false
+  xy: 2, 58
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: false
+  xy: 155, 182
+  size: 64, 49
+  orig: 64, 49
+  offset: 0, 0
+  index: -1
+xie
+  rotate: false
+  xy: 2, 2
+  size: 29, 54
+  orig: 29, 54
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 155, 143
+  size: 48, 37
+  orig: 48, 38
+  offset: 0, 1
+  index: -1
+yanzhu
+  rotate: false
+  xy: 100, 106
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

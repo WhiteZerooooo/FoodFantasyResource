@@ -1,0 +1,41 @@
+
+500579_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hua
+  rotate: false
+  xy: 2, 10
+  size: 35, 37
+  orig: 35, 37
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 2, 49
+  size: 207, 204
+  orig: 207, 204
+  offset: 0, 0
+  index: -1
+shuizhu_1
+  rotate: false
+  xy: 39, 28
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+shuizhu_2
+  rotate: false
+  xy: 2, 2
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+yu
+  rotate: false
+  xy: 211, 232
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: -1

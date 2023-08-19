@@ -1,0 +1,55 @@
+
+300029_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+maozi
+  rotate: false
+  xy: 2, 87
+  size: 75, 54
+  orig: 75, 54
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 143
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 164, 193
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 83, 177
+  size: 79, 47
+  orig: 79, 47
+  offset: 0, 0
+  index: -1
+zhenba
+  rotate: false
+  xy: 2, 2
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+zhentou
+  rotate: true
+  xy: 83, 151
+  size: 24, 47
+  orig: 24, 47
+  offset: 0, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 2, 35
+  size: 70, 50
+  orig: 70, 50
+  offset: 0, 0
+  index: -1

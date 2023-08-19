@@ -1,0 +1,41 @@
+
+500514_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 96, 36
+  orig: 98, 38
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 401, 142
+  size: 133, 154
+  orig: 135, 156
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 401, 298
+  size: 198, 139
+  orig: 200, 141
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 2, 40
+  size: 397, 397
+  orig: 399, 399
+  offset: 1, 1
+  index: -1
+5
+  rotate: false
+  xy: 601, 300
+  size: 142, 137
+  orig: 144, 139
+  offset: 1, 1
+  index: -1

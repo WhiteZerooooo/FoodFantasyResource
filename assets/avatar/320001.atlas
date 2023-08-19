@@ -1,0 +1,90 @@
+
+320001_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangyun1
+  rotate: false
+  xy: 95, 226
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+mei1
+  rotate: false
+  xy: 150, 250
+  size: 24, 4
+  orig: 24, 4
+  offset: 0, 0
+  index: -1
+mei2
+  rotate: false
+  xy: 2, 2
+  size: 21, 2
+  orig: 21, 2
+  offset: 0, 0
+  index: -1
+mei3
+  rotate: true
+  xy: 92, 108
+  size: 21, 1
+  orig: 21, 1
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 2, 54
+  size: 88, 75
+  orig: 88, 75
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 125, 240
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+youer
+  rotate: false
+  xy: 95, 204
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 2, 28
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+zhang
+  rotate: false
+  xy: 2, 131
+  size: 91, 123
+  orig: 91, 123
+  offset: 0, 0
+  index: -1
+zuoer
+  rotate: false
+  xy: 2, 6
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 95, 182
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 28, 40
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1

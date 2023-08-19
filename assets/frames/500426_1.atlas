@@ -1,0 +1,34 @@
+
+500426_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+S
+  rotate: false
+  xy: 210, 146
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+S2
+  rotate: false
+  xy: 2, 2
+  size: 47, 49
+  orig: 100, 100
+  offset: 30, 22
+  index: -1
+avator_frame_500426
+  rotate: false
+  xy: 2, 53
+  size: 206, 193
+  orig: 210, 210
+  offset: 2, 8
+  index: -1
+avator_frame_500426_fish
+  rotate: false
+  xy: 210, 102
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1

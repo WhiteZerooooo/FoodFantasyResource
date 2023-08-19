@@ -1,0 +1,48 @@
+
+300155_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiuti
+  rotate: false
+  xy: 0, 59
+  size: 163, 147
+  orig: 163, 147
+  offset: 0, 0
+  index: -1
+toushi
+  rotate: true
+  xy: 163, 101
+  size: 43, 18
+  orig: 43, 18
+  offset: 0, 0
+  index: -1
+toushi2
+  rotate: false
+  xy: 163, 144
+  size: 39, 62
+  orig: 39, 62
+  offset: 0, 0
+  index: -1
+wei
+  rotate: false
+  xy: 74, 38
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: false
+  xy: 0, 0
+  size: 53, 18
+  orig: 53, 18
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 0, 18
+  size: 74, 41
+  orig: 74, 41
+  offset: 0, 0
+  index: -1

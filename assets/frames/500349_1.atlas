@@ -1,0 +1,83 @@
+
+500349_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/zhenxian0001
+  rotate: true
+  xy: 376, 11
+  size: 32, 55
+  orig: 254, 504
+  offset: 109, 127
+  index: -1
+1/zhenxian0002
+  rotate: true
+  xy: 194, 4
+  size: 33, 180
+  orig: 254, 504
+  offset: 108, 137
+  index: -1
+1/zhenxian0003
+  rotate: false
+  xy: 72, 29
+  size: 33, 217
+  orig: 254, 504
+  offset: 108, 139
+  index: -1
+1/zhenxian0004
+  rotate: false
+  xy: 2, 22
+  size: 34, 224
+  orig: 254, 504
+  offset: 108, 147
+  index: -1
+1/zhenxian0005
+  rotate: false
+  xy: 38, 25
+  size: 32, 221
+  orig: 254, 504
+  offset: 109, 156
+  index: -1
+1/zhenxian0006
+  rotate: false
+  xy: 462, 10
+  size: 31, 203
+  orig: 254, 504
+  offset: 109, 176
+  index: -1
+1/zhenxian0007
+  rotate: true
+  xy: 311, 215
+  size: 31, 196
+  orig: 254, 504
+  offset: 109, 184
+  index: -1
+1/zhenxian0008
+  rotate: false
+  xy: 161, 2
+  size: 31, 35
+  orig: 254, 504
+  offset: 109, 346
+  index: -1
+avator_frame_500349
+  rotate: true
+  xy: 107, 39
+  size: 207, 202
+  orig: 210, 210
+  offset: 0, 7
+  index: -1
+water_1
+  rotate: false
+  xy: 2, 11
+  size: 157, 9
+  orig: 168, 20
+  offset: 6, 8
+  index: -1
+water_2
+  rotate: true
+  xy: 311, 45
+  size: 168, 149
+  orig: 168, 149
+  offset: 0, 0
+  index: -1

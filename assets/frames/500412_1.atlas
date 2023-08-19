@@ -1,0 +1,20 @@
+
+500412_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500412/avator_frame_500412
+  rotate: false
+  xy: 2, 2
+  size: 208, 204
+  orig: 210, 210
+  offset: 2, 5
+  index: -1
+500412/paob
+  rotate: false
+  xy: 212, 150
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1

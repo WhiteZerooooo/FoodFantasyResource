@@ -1,0 +1,768 @@
+
+300005_p1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dingtoufa
+  rotate: false
+  xy: 569, 8
+  size: 147, 124
+  orig: 147, 124
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_ba_02
+  rotate: true
+  xy: 342, 464
+  size: 94, 61
+  orig: 104, 66
+  offset: 3, 2
+  index: -1
+hero_jiguiyin_skill1_quan_01
+  rotate: false
+  xy: 418, 138
+  size: 201, 201
+  orig: 233, 230
+  offset: 16, 15
+  index: -1
+hero_jiguiyin_skill1_quan_02
+  rotate: false
+  xy: 2, 186
+  size: 226, 227
+  orig: 233, 230
+  offset: 3, 2
+  index: -1
+hero_jiguiyin_skill1_quan_03
+  rotate: false
+  xy: 382, 561
+  size: 231, 229
+  orig: 233, 230
+  offset: 1, 1
+  index: -1
+hero_jiguiyin_skill1_quan_04
+  rotate: false
+  xy: 148, 560
+  size: 232, 230
+  orig: 233, 230
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill1_quan_05
+  rotate: false
+  xy: 148, 792
+  size: 233, 230
+  orig: 233, 230
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill1_quan_06
+  rotate: false
+  xy: 383, 792
+  size: 231, 230
+  orig: 233, 230
+  offset: 1, 0
+  index: -1
+hero_jiguiyin_skill1_quan_07
+  rotate: false
+  xy: 616, 796
+  size: 230, 226
+  orig: 233, 230
+  offset: 1, 3
+  index: -1
+hero_jiguiyin_skill1_quan_08
+  rotate: true
+  xy: 230, 238
+  size: 222, 186
+  orig: 233, 230
+  offset: 2, 31
+  index: -1
+hero_jiguiyin_skill1_xian2_01
+  rotate: false
+  xy: 2, 415
+  size: 144, 607
+  orig: 144, 607
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill1_xian_01
+  rotate: true
+  xy: 832, 675
+  size: 108, 11
+  orig: 326, 11
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill1_xian_02
+  rotate: false
+  xy: 621, 134
+  size: 198, 9
+  orig: 326, 11
+  offset: 15, 1
+  index: -1
+hero_jiguiyin_skill1_xian_03
+  rotate: false
+  xy: 616, 785
+  size: 233, 9
+  orig: 326, 11
+  offset: 57, 1
+  index: -1
+hero_jiguiyin_skill1_xian_06
+  rotate: false
+  xy: 718, 3
+  size: 260, 7
+  orig: 326, 11
+  offset: 66, 1
+  index: -1
+hero_jiguiyin_skill2_bao_04
+  rotate: true
+  xy: 826, 12
+  size: 172, 191
+  orig: 215, 218
+  offset: 26, 12
+  index: -1
+hero_jiguiyin_skill2_bao_05
+  rotate: true
+  xy: 826, 389
+  size: 176, 196
+  orig: 215, 218
+  offset: 24, 9
+  index: -1
+hero_jiguiyin_skill2_bao_06
+  rotate: false
+  xy: 826, 186
+  size: 191, 201
+  orig: 215, 218
+  offset: 9, 12
+  index: -1
+hero_jiguiyin_skill2_bao_07
+  rotate: false
+  xy: 621, 145
+  size: 203, 205
+  orig: 215, 218
+  offset: 6, 10
+  index: -1
+hero_jiguiyin_skill2_bao_08
+  rotate: false
+  xy: 617, 352
+  size: 207, 213
+  orig: 215, 218
+  offset: 3, 2
+  index: -1
+hero_jiguiyin_skill2_bao_09
+  rotate: false
+  xy: 615, 567
+  size: 215, 216
+  orig: 215, 218
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_bao_11
+  rotate: false
+  xy: 418, 341
+  size: 197, 218
+  orig: 215, 218
+  offset: 15, 0
+  index: -1
+hero_jiguiyin_skill2_jiaodiglow_01
+  rotate: false
+  xy: 832, 567
+  size: 96, 43
+  orig: 96, 43
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiaodiquan_01
+  rotate: false
+  xy: 179, 2
+  size: 116, 40
+  orig: 150, 50
+  offset: 17, 5
+  index: -1
+hero_jiguiyin_skill2_jiaodiquan_02
+  rotate: false
+  xy: 297, 2
+  size: 116, 40
+  orig: 150, 50
+  offset: 17, 5
+  index: -1
+hero_jiguiyin_skill2_kuo_06
+  rotate: true
+  xy: 848, 805
+  size: 217, 170
+  orig: 225, 170
+  offset: 8, 0
+  index: -1
+hero_jiguiyin_skill2_xian2_02
+  rotate: false
+  xy: 417, 38
+  size: 150, 98
+  orig: 192, 185
+  offset: 21, 6
+  index: -1
+hero_jiguiyin_skill2_xian2_03
+  rotate: true
+  xy: 230, 44
+  size: 192, 185
+  orig: 192, 185
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xian_02
+  rotate: false
+  xy: 2, 2
+  size: 175, 182
+  orig: 192, 183
+  offset: 16, 1
+  index: -1
+hero_jiguiyin_skill2_xian_04
+  rotate: true
+  xy: 851, 612
+  size: 191, 171
+  orig: 192, 183
+  offset: 0, 12
+  index: -1
+hero_jiguiyin_skill2_xing_06
+  rotate: false
+  xy: 718, 22
+  size: 96, 110
+  orig: 96, 110
+  offset: 0, 0
+  index: -1
+hongyun
+  rotate: false
+  xy: 718, 12
+  size: 64, 8
+  orig: 64, 8
+  offset: 0, 0
+  index: -1
+jiutangaizinei
+  rotate: true
+  xy: 209, 422
+  size: 38, 19
+  orig: 38, 19
+  offset: 0, 0
+  index: -1
+meimaobei
+  rotate: true
+  xy: 219, 120
+  size: 64, 6
+  orig: 64, 6
+  offset: 0, 0
+  index: -1
+meimaonu
+  rotate: true
+  xy: 832, 617
+  size: 56, 8
+  orig: 56, 8
+  offset: 0, 0
+  index: -1
+meimaozhengchang
+  rotate: true
+  xy: 219, 53
+  size: 65, 5
+  orig: 65, 5
+  offset: 0, 0
+  index: -1
+path_00193_1
+  rotate: false
+  xy: 148, 462
+  size: 192, 96
+  orig: 192, 96
+  offset: 0, 0
+  index: -1
+shoubixiaokai
+  rotate: true
+  xy: 930, 567
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+toujiaozuo
+  rotate: true
+  xy: 179, 44
+  size: 23, 35
+  orig: 23, 35
+  offset: 0, 0
+  index: -1
+xiapifengs
+  rotate: true
+  xy: 179, 69
+  size: 115, 38
+  orig: 115, 38
+  offset: 0, 0
+  index: -1
+yanjianbi
+  rotate: true
+  xy: 816, 55
+  size: 77, 8
+  orig: 77, 8
+  offset: 0, 0
+  index: -1
+yanjiannu
+  rotate: true
+  xy: 405, 482
+  size: 77, 11
+  orig: 77, 11
+  offset: 0, 0
+  index: -1
+youdingqiu
+  rotate: false
+  xy: 972, 573
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+youshouxiao
+  rotate: true
+  xy: 181, 415
+  size: 45, 26
+  orig: 45, 26
+  offset: 0, 0
+  index: -1
+zuopifeng
+  rotate: false
+  xy: 415, 2
+  size: 55, 34
+  orig: 55, 34
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 148, 415
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1
+zuoshou01
+  rotate: false
+  xy: 516, 5
+  size: 40, 31
+  orig: 40, 32
+  offset: 0, 1
+  index: -1
+zuoshoux
+  rotate: true
+  xy: 472, 2
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+
+300005_p2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+binfayou
+  rotate: false
+  xy: 730, 351
+  size: 15, 44
+  orig: 15, 44
+  offset: 0, 0
+  index: -1
+binfazuo
+  rotate: false
+  xy: 189, 783
+  size: 11, 40
+  orig: 11, 40
+  offset: 0, 0
+  index: -1
+erduoyou
+  rotate: true
+  xy: 973, 589
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+erduozuo
+  rotate: false
+  xy: 1000, 817
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+guangyun1
+  rotate: false
+  xy: 824, 417
+  size: 71, 75
+  orig: 96, 96
+  offset: 13, 10
+  index: -1
+hero_jiguiyin_ba_01
+  rotate: false
+  xy: 637, 258
+  size: 79, 51
+  orig: 104, 66
+  offset: 25, 0
+  index: -1
+hero_jiguiyin_ba_03
+  rotate: false
+  xy: 554, 332
+  size: 88, 63
+  orig: 104, 66
+  offset: 1, 3
+  index: -1
+hero_jiguiyin_ba_04
+  rotate: true
+  xy: 400, 4
+  size: 84, 62
+  orig: 104, 66
+  offset: 0, 4
+  index: -1
+hero_jiguiyin_skill1_jahao_01
+  rotate: false
+  xy: 157, 394
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill1_xian_04
+  rotate: true
+  xy: 167, 566
+  size: 257, 9
+  orig: 326, 11
+  offset: 62, 1
+  index: -1
+hero_jiguiyin_skill1_xian_05
+  rotate: true
+  xy: 178, 561
+  size: 262, 9
+  orig: 326, 11
+  offset: 64, 1
+  index: -1
+hero_jiguiyin_skill2_bao_00
+  rotate: false
+  xy: 342, 90
+  size: 108, 132
+  orig: 215, 218
+  offset: 36, 64
+  index: -1
+hero_jiguiyin_skill2_bao_01
+  rotate: false
+  xy: 348, 359
+  size: 152, 135
+  orig: 215, 218
+  offset: 36, 61
+  index: -1
+hero_jiguiyin_skill2_bao_02
+  rotate: true
+  xy: 185, 58
+  size: 156, 155
+  orig: 215, 218
+  offset: 36, 42
+  index: -1
+hero_jiguiyin_skill2_bao_13
+  rotate: false
+  xy: 2, 825
+  size: 199, 197
+  orig: 215, 218
+  offset: 13, 15
+  index: -1
+hero_jiguiyin_skill2_jiaodiquan_03
+  rotate: true
+  xy: 502, 346
+  size: 148, 50
+  orig: 150, 50
+  offset: 1, 0
+  index: -1
+hero_jiguiyin_skill2_jiaodiquan_04
+  rotate: false
+  xy: 185, 6
+  size: 150, 50
+  orig: 150, 50
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiutan_01
+  rotate: false
+  xy: 422, 843
+  size: 192, 179
+  orig: 192, 179
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiutan_02
+  rotate: false
+  xy: 616, 843
+  size: 192, 179
+  orig: 192, 179
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiutan_03
+  rotate: false
+  xy: 810, 841
+  size: 192, 181
+  orig: 192, 181
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiutan_04
+  rotate: true
+  xy: 2, 200
+  size: 192, 181
+  orig: 192, 181
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_jiutan_05
+  rotate: true
+  xy: 2, 6
+  size: 192, 181
+  orig: 192, 181
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_kuo_00
+  rotate: true
+  xy: 2, 394
+  size: 208, 153
+  orig: 225, 170
+  offset: 3, 9
+  index: -1
+hero_jiguiyin_skill2_kuo_02
+  rotate: false
+  xy: 203, 862
+  size: 217, 160
+  orig: 225, 170
+  offset: 0, 5
+  index: -1
+hero_jiguiyin_skill2_kuo_04
+  rotate: true
+  xy: 2, 604
+  size: 219, 163
+  orig: 225, 170
+  offset: 0, 3
+  index: -1
+hero_jiguiyin_skill2_quan_00
+  rotate: false
+  xy: 644, 311
+  size: 84, 84
+  orig: 96, 96
+  offset: 6, 6
+  index: -1
+hero_jiguiyin_skill2_quan_02
+  rotate: false
+  xy: 795, 576
+  size: 92, 92
+  orig: 96, 96
+  offset: 2, 2
+  index: -1
+hero_jiguiyin_skill2_quan_04
+  rotate: false
+  xy: 554, 397
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_quan_06
+  rotate: false
+  xy: 652, 397
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xian2_01
+  rotate: true
+  xy: 738, 505
+  size: 150, 55
+  orig: 192, 185
+  offset: 21, 6
+  index: -1
+hero_jiguiyin_skill2_xian_00
+  rotate: false
+  xy: 185, 216
+  size: 146, 176
+  orig: 192, 183
+  offset: 46, 0
+  index: -1
+hero_jiguiyin_skill2_xian_06
+  rotate: false
+  xy: 785, 670
+  size: 188, 169
+  orig: 192, 183
+  offset: 3, 14
+  index: -1
+hero_jiguiyin_skill2_xian_08
+  rotate: false
+  xy: 189, 512
+  size: 188, 162
+  orig: 192, 183
+  offset: 4, 14
+  index: -1
+hero_jiguiyin_skill2_xing2_01
+  rotate: false
+  xy: 203, 676
+  size: 192, 184
+  orig: 192, 184
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xing2_02
+  rotate: false
+  xy: 397, 657
+  size: 192, 184
+  orig: 192, 184
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xing2_03
+  rotate: false
+  xy: 591, 657
+  size: 192, 184
+  orig: 192, 184
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xing2_04
+  rotate: true
+  xy: 379, 496
+  size: 159, 184
+  orig: 192, 184
+  offset: 0, 0
+  index: -1
+hero_jiguiyin_skill2_xing_00
+  rotate: false
+  xy: 889, 579
+  size: 82, 89
+  orig: 96, 110
+  offset: 5, 10
+  index: -1
+hero_jiguiyin_skill2_xing_02
+  rotate: false
+  xy: 750, 415
+  size: 72, 77
+  orig: 96, 110
+  offset: 11, 15
+  index: -1
+hero_jiguiyin_skill2_xing_04
+  rotate: true
+  xy: 795, 494
+  size: 80, 88
+  orig: 96, 110
+  offset: 8, 9
+  index: -1
+jiutang
+  rotate: true
+  xy: 498, 217
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+jiutanggaizi
+  rotate: true
+  xy: 1004, 989
+  size: 33, 18
+  orig: 33, 18
+  offset: 0, 0
+  index: -1
+kua
+  rotate: true
+  xy: 452, 158
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 333, 224
+  size: 132, 133
+  orig: 132, 133
+  offset: 0, 0
+  index: -1
+qianetoufa
+  rotate: false
+  xy: 502, 275
+  size: 50, 69
+  orig: 50, 69
+  offset: 0, 0
+  index: -1
+shangyi
+  rotate: true
+  xy: 554, 265
+  size: 65, 81
+  orig: 65, 81
+  offset: 0, 0
+  index: -1
+toufazheng
+  rotate: false
+  xy: 565, 495
+  size: 171, 160
+  orig: 171, 160
+  offset: 0, 0
+  index: -1
+touguan
+  rotate: true
+  xy: 554, 212
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+toujiaoyou
+  rotate: false
+  xy: 479, 121
+  size: 26, 35
+  orig: 26, 35
+  offset: 0, 0
+  index: -1
+xiapifengx
+  rotate: true
+  xy: 275, 394
+  size: 116, 71
+  orig: 116, 71
+  offset: 0, 0
+  index: -1
+xie zuoxie
+  rotate: false
+  xy: 467, 288
+  size: 33, 69
+  orig: 33, 69
+  offset: 0, 0
+  index: -1
+xieyoujiao
+  rotate: false
+  xy: 975, 691
+  size: 37, 69
+  orig: 37, 69
+  offset: 0, 0
+  index: -1
+yanjianzhengchang
+  rotate: true
+  xy: 975, 762
+  size: 77, 23
+  orig: 77, 23
+  offset: 0, 0
+  index: -1
+youbishangbi
+  rotate: true
+  xy: 975, 664
+  size: 25, 37
+  orig: 25, 37
+  offset: 0, 0
+  index: -1
+youshangbijia
+  rotate: false
+  xy: 157, 524
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+youshangpifeng
+  rotate: true
+  xy: 342, 2
+  size: 86, 56
+  orig: 86, 56
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 452, 111
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+zuobida
+  rotate: false
+  xy: 973, 626
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+zuobidakai
+  rotate: false
+  xy: 498, 180
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+zuoqiantoufa
+  rotate: false
+  xy: 467, 222
+  size: 29, 64
+  orig: 29, 64
+  offset: 0, 0
+  index: -1

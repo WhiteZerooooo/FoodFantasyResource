@@ -1,0 +1,69 @@
+
+300050_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cha
+  rotate: false
+  xy: 78, 18
+  size: 46, 76
+  orig: 46, 76
+  offset: 0, 0
+  index: -1
+shanghou
+  rotate: false
+  xy: 146, 135
+  size: 85, 43
+  orig: 85, 43
+  offset: 0, 0
+  index: -1
+shangzui
+  rotate: false
+  xy: 2, 158
+  size: 142, 94
+  orig: 142, 94
+  offset: 0, 0
+  index: -1
+shetou
+  rotate: false
+  xy: 2, 24
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+tuihou
+  rotate: false
+  xy: 2, 2
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+tuiqian
+  rotate: false
+  xy: 126, 56
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+wei
+  rotate: false
+  xy: 146, 180
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+xiahou
+  rotate: false
+  xy: 138, 96
+  size: 82, 37
+  orig: 82, 37
+  offset: 0, 0
+  index: -1
+xiazui
+  rotate: false
+  xy: 2, 96
+  size: 134, 60
+  orig: 134, 60
+  offset: 0, 0
+  index: -1

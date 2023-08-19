@@ -1,0 +1,55 @@
+
+500329_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avator_frame_500329
+  rotate: false
+  xy: 1, 55
+  size: 199, 197
+  orig: 210, 210
+  offset: 2, 8
+  index: -1
+hua_329
+  rotate: false
+  xy: 96, 23
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+line_329
+  rotate: true
+  xy: 1, 1
+  size: 2, 26
+  orig: 2, 26
+  offset: 0, 0
+  index: -1
+mousse_1
+  rotate: true
+  xy: 1, 4
+  size: 50, 94
+  orig: 50, 94
+  offset: 0, 0
+  index: -1
+mousse_2
+  rotate: true
+  xy: 201, 185
+  size: 67, 33
+  orig: 67, 33
+  offset: 0, 0
+  index: -1
+mousse_head
+  rotate: true
+  xy: 235, 224
+  size: 28, 11
+  orig: 28, 11
+  offset: 0, 0
+  index: -1
+qian_329
+  rotate: false
+  xy: 201, 150
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1

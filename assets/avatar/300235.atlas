@@ -1,0 +1,76 @@
+
+300235_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+face
+  rotate: false
+  xy: 2, 2
+  size: 92, 101
+  orig: 92, 101
+  offset: 0, 0
+  index: -1
+fi
+  rotate: false
+  xy: 2, 105
+  size: 133, 148
+  orig: 133, 148
+  offset: 0, 0
+  index: -1
+hy
+  rotate: false
+  xy: 152, 227
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+hz
+  rotate: false
+  xy: 173, 246
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 115, 89
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+yyz
+  rotate: false
+  xy: 137, 226
+  size: 13, 27
+  orig: 14, 27
+  offset: 0, 0
+  index: -1
+zl
+  rotate: false
+  xy: 96, 86
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+zs
+  rotate: true
+  xy: 96, 65
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+zx
+  rotate: false
+  xy: 152, 238
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+zy
+  rotate: true
+  xy: 137, 207
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1

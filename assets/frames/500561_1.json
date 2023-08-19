@@ -1,0 +1,108 @@
+{
+"skeleton": { "hash": "4T2QVQkNzJmf3TEXuvmXohKByXw", "spine": "3.4.02", "width": 210, "height": 210, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "images/avator_frame_500561_2", "parent": "root", "x": -40.54, "y": -64.4 },
+	{ "name": "images/avator_frame_500561_3", "parent": "root", "x": 49.85, "y": -73.44 },
+	{ "name": "images/avator_frame_500561_4", "parent": "root", "x": 24.54, "y": -77.96 },
+	{ "name": "images/avator_frame_500561_5", "parent": "root", "x": -17.03, "y": -87 }
+],
+"slots": [
+	{ "name": "images/avator_frame_500561_1", "bone": "root", "attachment": "images/avator_frame_500561_1" },
+	{ "name": "images/avator_frame_500561_2", "bone": "images/avator_frame_500561_2", "attachment": "images/avator_frame_500561_2" },
+	{ "name": "images/avator_frame_500561_4", "bone": "images/avator_frame_500561_4", "attachment": "images/avator_frame_500561_2" },
+	{ "name": "images/avator_frame_500561_3", "bone": "images/avator_frame_500561_3", "attachment": "images/avator_frame_500561_3" },
+	{ "name": "images/avator_frame_500561_5", "bone": "images/avator_frame_500561_5", "attachment": "images/avator_frame_500561_3" }
+],
+"skins": {
+	"default": {
+		"images/avator_frame_500561_1": {
+			"images/avator_frame_500561_1": { "width": 210, "height": 210 }
+		},
+		"images/avator_frame_500561_2": {
+			"images/avator_frame_500561_2": { "x": 1.62, "y": -1.25, "width": 21, "height": 26 }
+		},
+		"images/avator_frame_500561_3": {
+			"images/avator_frame_500561_3": { "x": 0.51, "y": 1.37, "width": 17, "height": 31 }
+		},
+		"images/avator_frame_500561_4": {
+			"images/avator_frame_500561_2": { "x": 1.62, "y": -1.25, "width": 21, "height": 26 }
+		},
+		"images/avator_frame_500561_5": {
+			"images/avator_frame_500561_3": { "x": 0.51, "y": 1.37, "width": 17, "height": 31 }
+		}
+	}
+},
+"animations": {
+	"500561_1": {
+		"bones": {
+			"images/avator_frame_500561_2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -1.4,
+						"y": 4.06,
+						"curve": [ 0.379, 0.6, 0.724, 1 ]
+					},
+					{ "time": 0.1666, "x": -0.9, "y": 7.23 },
+					{
+						"time": 0.8333,
+						"x": -3.61,
+						"y": -9.94,
+						"curve": [ 0.242, 0, 0.666, 0.66 ]
+					},
+					{ "time": 1.3333, "x": -1.4, "y": 4.06 }
+				]
+			},
+			"images/avator_frame_500561_5": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -2.25,
+						"y": -1.35,
+						"curve": [ 0.375, 0.5, 0.75, 1 ]
+					},
+					{ "time": 0.3333, "x": -0.9, "y": 7.23 },
+					{
+						"time": 1,
+						"x": -3.61,
+						"y": -9.94,
+						"curve": [ 0.25, 0, 0.625, 0.5 ]
+					},
+					{ "time": 1.3333, "x": -2.25, "y": -1.35 }
+				]
+			},
+			"images/avator_frame_500561_4": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -3.11,
+						"y": -6.77,
+						"curve": [ 0.333, 0.33, 0.757, 1 ]
+					},
+					{ "time": 0.5, "x": -0.9, "y": 7.23 },
+					{
+						"time": 1.1666,
+						"x": -3.61,
+						"y": -9.94,
+						"curve": [ 0.275, 0, 0.62, 0.4 ]
+					},
+					{ "time": 1.3333, "x": -3.11, "y": -6.77 }
+				]
+			},
+			"images/avator_frame_500561_3": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -3.61,
+						"y": -9.94,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": -0.9, "y": 7.23 },
+					{ "time": 1.3333, "x": -3.61, "y": -9.94 }
+				]
+			}
+		}
+	}
+}
+}

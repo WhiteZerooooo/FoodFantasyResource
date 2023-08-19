@@ -1,0 +1,118 @@
+
+300244_p1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daimao
+  rotate: true
+  xy: 113, 26
+  size: 72, 27
+  orig: 72, 27
+  offset: 0, 0
+  index: -1
+hdj
+  rotate: false
+  xy: 456, 226
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+huangguan
+  rotate: true
+  xy: 385, 198
+  size: 56, 69
+  orig: 56, 69
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 142, 55
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 28
+  size: 109, 70
+  orig: 109, 70
+  offset: 0, 0
+  index: -1
+s3
+  rotate: false
+  xy: 339, 132
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+s4
+  rotate: false
+  xy: 456, 204
+  size: 14, 20
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+s7
+  rotate: false
+  xy: 2, 2
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: false
+  xy: 339, 150
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 268, 130
+  size: 69, 61
+  orig: 69, 61
+  offset: 0, 0
+  index: -1
+toufa01
+  rotate: false
+  xy: 142, 82
+  size: 82, 27
+  orig: 82, 27
+  offset: 0, 0
+  index: -1
+toufa02
+  rotate: false
+  xy: 138, 111
+  size: 128, 143
+  orig: 128, 143
+  offset: 0, 0
+  index: -1
+toufa03
+  rotate: false
+  xy: 2, 100
+  size: 134, 154
+  orig: 134, 154
+  offset: 0, 0
+  index: -1
+toushihou
+  rotate: false
+  xy: 268, 193
+  size: 115, 61
+  orig: 115, 61
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 226, 94
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 268, 112
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1

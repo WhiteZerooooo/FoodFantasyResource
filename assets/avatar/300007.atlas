@@ -1,0 +1,41 @@
+
+300007_p1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chi1
+  rotate: false
+  xy: 117, 114
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+chi2
+  rotate: false
+  xy: 2, 2
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+qiuti
+  rotate: false
+  xy: 2, 35
+  size: 113, 91
+  orig: 113, 91
+  offset: 0, 0
+  index: -1
+tan
+  rotate: false
+  xy: 2, 18
+  size: 44, 15
+  orig: 44, 15
+  offset: 0, 0
+  index: -1
+wei
+  rotate: true
+  xy: 48, 5
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+300242_p1.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bian
+  rotate: false
+  xy: 2, 23
+  size: 175, 95
+  orig: 175, 95
+  offset: 0, 0
+  index: -1
+chiban02
+  rotate: true
+  xy: 497, 38
+  size: 80, 86
+  orig: 80, 86
+  offset: 0, 0
+  index: -1
+chibang01
+  rotate: true
+  xy: 652, 79
+  size: 39, 77
+  orig: 39, 77
+  offset: 0, 0
+  index: -1
+huaban01
+  rotate: false
+  xy: 2, 2
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+huaban02
+  rotate: false
+  xy: 585, 40
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+huaban03
+  rotate: false
+  xy: 388, 39
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+huaban04
+  rotate: false
+  xy: 652, 62
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+huaban05
+  rotate: false
+  xy: 280, 20
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+hudiejie
+  rotate: false
+  xy: 585, 50
+  size: 65, 68
+  orig: 65, 68
+  offset: 0, 0
+  index: -1
+paodai
+  rotate: false
+  xy: 388, 57
+  size: 107, 61
+  orig: 107, 61
+  offset: 0, 0
+  index: -1
+shangmaozi
+  rotate: true
+  xy: 179, 20
+  size: 98, 99
+  orig: 98, 99
+  offset: 0, 0
+  index: -1
+zhua
+  rotate: true
+  xy: 280, 31
+  size: 87, 106
+  orig: 87, 106
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+300016_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiuti
+  rotate: false
+  xy: 2, 151
+  size: 129, 103
+  orig: 129, 103
+  offset: 0, 0
+  index: -1
+wei
+  rotate: false
+  xy: 2, 91
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 133, 228
+  size: 121, 26
+  orig: 121, 26
+  offset: 0, 0
+  index: -1

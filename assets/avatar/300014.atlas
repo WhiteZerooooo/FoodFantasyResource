@@ -1,0 +1,34 @@
+
+300014_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo1
+  rotate: false
+  xy: 158, 177
+  size: 33, 53
+  orig: 33, 53
+  offset: 0, 0
+  index: -1
+huo2
+  rotate: false
+  xy: 158, 126
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+qiuti
+  rotate: false
+  xy: 2, 52
+  size: 154, 178
+  orig: 154, 178
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 2, 2
+  size: 132, 48
+  orig: 132, 48
+  offset: 0, 0
+  index: -1

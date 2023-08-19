@@ -1,0 +1,41 @@
+
+300093_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qiuti
+  rotate: false
+  xy: 2, 130
+  size: 161, 121
+  orig: 162, 121
+  offset: 0, 0
+  index: -1
+toushi
+  rotate: false
+  xy: 2, 49
+  size: 82, 79
+  orig: 82, 79
+  offset: 0, 0
+  index: -1
+toushi2
+  rotate: true
+  xy: 2, 2
+  size: 45, 75
+  orig: 49, 79
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: false
+  xy: 86, 116
+  size: 51, 12
+  orig: 61, 27
+  offset: 4, 10
+  index: -1
+yan2
+  rotate: false
+  xy: 165, 205
+  size: 84, 46
+  orig: 84, 46
+  offset: 0, 0
+  index: -1

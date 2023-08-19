@@ -1,0 +1,27 @@
+
+500343_1.png
+size: 64,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 42, 12
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 22, 2
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1

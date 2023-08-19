@@ -1,0 +1,90 @@
+
+300191_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bashou
+  rotate: false
+  xy: 2, 19
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+beidian
+  rotate: false
+  xy: 2, 208
+  size: 105, 20
+  orig: 105, 20
+  offset: 0, 0
+  index: -1
+beizihou
+  rotate: false
+  xy: 2, 112
+  size: 76, 45
+  orig: 76, 45
+  offset: 0, 0
+  index: -1
+beiziqian
+  rotate: false
+  xy: 2, 159
+  size: 76, 47
+  orig: 76, 47
+  offset: 0, 0
+  index: -1
+bq_bi
+  rotate: false
+  xy: 32, 21
+  size: 15, 6
+  orig: 15, 6
+  offset: 0, 0
+  index: -1
+bq_zc
+  rotate: false
+  xy: 109, 211
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1
+erduo01
+  rotate: false
+  xy: 65, 75
+  size: 13, 35
+  orig: 13, 35
+  offset: 0, 0
+  index: -1
+erduo02
+  rotate: false
+  xy: 80, 172
+  size: 17, 34
+  orig: 17, 34
+  offset: 0, 0
+  index: -1
+erduo03
+  rotate: false
+  xy: 145, 214
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+hudiejie
+  rotate: false
+  xy: 2, 2
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 67
+  size: 61, 43
+  orig: 61, 43
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 32, 29
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1

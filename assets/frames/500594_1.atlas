@@ -1,0 +1,27 @@
+
+500594_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+./images/500595_g
+  rotate: false
+  xy: 209, 98
+  size: 200, 142
+  orig: 200, 142
+  offset: 0, 0
+  index: -1
+images/500595_debris
+  rotate: false
+  xy: 2, 2
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+images/avator_frame_500595
+  rotate: false
+  xy: 2, 38
+  size: 205, 202
+  orig: 210, 210
+  offset: 2, 0
+  index: -1

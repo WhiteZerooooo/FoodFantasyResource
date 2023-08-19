@@ -1,0 +1,20 @@
+
+500619_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avator_frame_500619
+  rotate: false
+  xy: 2, 60
+  size: 195, 194
+  orig: 210, 210
+  offset: 6, 10
+  index: -1
+x
+  rotate: false
+  xy: 199, 185
+  size: 55, 69
+  orig: 55, 69
+  offset: 0, 0
+  index: -1

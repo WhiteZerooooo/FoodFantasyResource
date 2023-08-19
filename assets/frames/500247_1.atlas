@@ -1,0 +1,13 @@
+
+500247_1.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anime_500247_heart
+  rotate: false
+  xy: 2, 2
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1

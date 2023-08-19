@@ -1,0 +1,48 @@
+
+300151_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cai
+  rotate: false
+  xy: 153, 189
+  size: 58, 55
+  orig: 58, 55
+  offset: 0, 0
+  index: -1
+huo1
+  rotate: false
+  xy: 211, 191
+  size: 33, 53
+  orig: 33, 53
+  offset: 0, 0
+  index: -1
+huo2
+  rotate: false
+  xy: 153, 99
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+qiuti
+  rotate: false
+  xy: 0, 67
+  size: 153, 177
+  orig: 154, 178
+  offset: 0, 1
+  index: -1
+tong
+  rotate: false
+  xy: 153, 148
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 0, 19
+  size: 132, 48
+  orig: 132, 48
+  offset: 0, 0
+  index: -1

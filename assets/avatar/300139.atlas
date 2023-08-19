@@ -1,0 +1,104 @@
+
+300139_p1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caidai
+  rotate: false
+  xy: 2, 125
+  size: 133, 129
+  orig: 133, 129
+  offset: 0, 0
+  index: -1
+hou
+  rotate: false
+  xy: 137, 201
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+hudiejie
+  rotate: false
+  xy: 184, 120
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+piaodai01
+  rotate: false
+  xy: 140, 76
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+piaodai02
+  rotate: false
+  xy: 137, 126
+  size: 45, 20
+  orig: 45, 20
+  offset: 0, 0
+  index: -1
+qian
+  rotate: true
+  xy: 85, 52
+  size: 71, 53
+  orig: 71, 53
+  offset: 0, 0
+  index: -1
+qiu01
+  rotate: true
+  xy: 2, 2
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+qiu02
+  rotate: false
+  xy: 34, 2
+  size: 44, 13
+  orig: 44, 13
+  offset: 0, 0
+  index: -1
+qiu03
+  rotate: false
+  xy: 140, 105
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+shentixiaoguai
+  rotate: false
+  xy: 2, 43
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+shuimao
+  rotate: false
+  xy: 137, 148
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+xiaoguaibiaoqing
+  rotate: true
+  xy: 222, 185
+  size: 69, 28
+  orig: 69, 28
+  offset: 0, 0
+  index: -1
+youchibang
+  rotate: true
+  xy: 163, 78
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+zuochibang
+  rotate: false
+  xy: 34, 17
+  size: 41, 24
+  orig: 41, 24
+  offset: 0, 0
+  index: -1
