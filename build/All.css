@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #tools-container {
     max-width: 600px;
     margin: 0 auto;
@@ -13,20 +12,4 @@
   font-size: 24px;
   line-height: 1.5;
   color: #333;
-=======
-#tools-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-#tools-mytext {
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #333;
->>>>>>> d9413747b629684651d3cc03d04704beffb18c78
 }
