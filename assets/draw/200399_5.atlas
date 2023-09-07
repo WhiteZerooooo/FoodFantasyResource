@@ -1,95 +1,95 @@
 
-200399_p1.png
+200399_5_p1.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ms_10
   rotate: true
-  xy: 913, 137
+  xy: 913, 135
   size: 96, 106
   orig: 97, 106
   offset: 0, 0
   index: -1
 ms_18
   rotate: true
-  xy: 998, 9
+  xy: 998, 7
   size: 38, 21
   orig: 39, 21
   offset: 1, 0
   index: -1
 ms_36
   rotate: false
-  xy: 630, 14
+  xy: 630, 12
   size: 281, 490
   orig: 282, 490
   offset: 1, 0
   index: -1
 ms_40
   rotate: false
-  xy: 630, 759
+  xy: 630, 757
   size: 385, 262
   orig: 385, 262
   offset: 0, 0
   index: -1
 ms_45
   rotate: false
-  xy: 998, 49
+  xy: 998, 47
   size: 23, 23
   orig: 23, 23
   offset: 0, 0
   index: -1
 ms_49
   rotate: true
-  xy: 913, 359
+  xy: 913, 357
   size: 145, 108
   orig: 145, 108
   offset: 0, 0
   index: -1
 ms_54
   rotate: false
-  xy: 964, 74
+  xy: 964, 72
   size: 52, 61
   orig: 52, 63
   offset: 0, 1
   index: -1
 ms_77
   rotate: true
-  xy: 630, 506
+  xy: 630, 504
   size: 251, 380
   orig: 252, 381
   offset: 0, 1
   index: -1
 ms_79
   rotate: false
-  xy: 913, 4
+  xy: 913, 2
   size: 49, 131
   orig: 49, 131
   offset: 0, 0
   index: -1
 ms_8
   rotate: true
-  xy: 913, 235
+  xy: 913, 233
   size: 122, 108
   orig: 123, 108
   offset: 1, 0
   index: -1
 ms_82
   rotate: false
-  xy: 2, 11
+  xy: 2, 9
   size: 626, 1010
   orig: 626, 1010
   offset: 0, 0
   index: -1
 ms_9
   rotate: true
-  xy: 964, 7
+  xy: 964, 5
   size: 65, 32
   orig: 66, 32
   offset: 0, 0
   index: -1
 
-200399_p2.png
+200399_5_p2.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -193,7 +193,7 @@ ms_81
   offset: 0, 0
   index: -1
 
-200399_p3.png
+200399_5_p3.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -304,132 +304,132 @@ ms_75
   offset: 1, 0
   index: -1
 
-200399_p4.png
+200399_5_p4.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ms_21
   rotate: false
-  xy: 821, 3
+  xy: 821, 2
   size: 92, 177
   orig: 92, 178
   offset: 0, 1
   index: -1
 ms_25
   rotate: false
-  xy: 614, 182
+  xy: 614, 181
   size: 212, 418
   orig: 212, 419
   offset: 0, 0
   index: -1
 ms_27
   rotate: true
-  xy: 821, 887
+  xy: 821, 886
   size: 134, 200
   orig: 135, 201
   offset: 0, 0
   index: -1
 ms_31
   rotate: true
-  xy: 2, 4
+  xy: 2, 3
   size: 169, 225
   orig: 169, 225
   offset: 0, 0
   index: -1
 ms_32
   rotate: false
-  xy: 443, 11
+  xy: 443, 10
   size: 46, 162
   orig: 46, 163
   offset: 0, 1
   index: -1
 ms_34
   rotate: false
-  xy: 491, 12
+  xy: 491, 11
   size: 49, 161
   orig: 49, 162
   offset: 0, 1
   index: -1
 ms_41
   rotate: true
-  xy: 828, 218
+  xy: 828, 217
   size: 48, 44
   orig: 49, 45
   offset: 0, 0
   index: -1
 ms_42
   rotate: true
-  xy: 739, 616
+  xy: 739, 615
   size: 67, 73
   orig: 68, 73
   offset: 0, 0
   index: -1
 ms_43
   rotate: false
-  xy: 319, 8
+  xy: 319, 7
   size: 122, 165
   orig: 124, 166
   offset: 1, 0
   index: -1
 ms_44
   rotate: false
-  xy: 828, 268
+  xy: 828, 267
   size: 193, 332
   orig: 193, 332
   offset: 0, 0
   index: -1
 ms_48
   rotate: false
-  xy: 614, 606
+  xy: 614, 605
   size: 123, 77
   orig: 123, 77
   offset: 0, 0
   index: -1
 ms_51
   rotate: false
-  xy: 2, 175
+  xy: 2, 174
   size: 610, 846
   orig: 610, 846
   offset: 0, 0
   index: -1
 ms_52
   rotate: true
-  xy: 915, 8
+  xy: 915, 7
   size: 258, 104
   orig: 258, 104
   offset: 0, 0
   index: -1
 ms_56
   rotate: true
-  xy: 818, 602
+  xy: 818, 601
   size: 283, 202
   orig: 285, 202
   offset: 1, 0
   index: -1
 ms_67
   rotate: false
-  xy: 542, 14
+  xy: 542, 13
   size: 277, 159
   orig: 277, 161
   offset: 0, 2
   index: -1
 ms_7
   rotate: false
-  xy: 229, 6
+  xy: 229, 5
   size: 88, 167
   orig: 88, 167
   offset: 0, 0
   index: -1
 ms_78
   rotate: false
-  xy: 614, 685
+  xy: 614, 684
   size: 202, 336
   orig: 202, 336
   offset: 0, 0
   index: -1
 
-200399_p5.png
+200399_5_p5.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -505,7 +505,7 @@ ms_74
   offset: 0, 0
   index: -1
 
-200399_p6.png
+200399_5_p6.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
@@ -588,7 +588,7 @@ ms_76
   offset: 0, 0
   index: -1
 
-200399_p7.png
+200399_5_p7.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
