@@ -2019,20 +2019,6 @@ tx/skill2/sf17/sf17_0040
   orig: 99, 178
   offset: 36, 25
   index: -1
-tx/skill2/sf17/sf17_0042
-  rotate: false
-  xy: 2, 57
-  size: 29, 140
-  orig: 99, 178
-  offset: 36, 25
-  index: -1
-tx/skill2/sf17/sf17_0044
-  rotate: false
-  xy: 2, 57
-  size: 29, 140
-  orig: 99, 178
-  offset: 36, 25
-  index: -1
 yanjin
   rotate: true
   xy: 899, 608

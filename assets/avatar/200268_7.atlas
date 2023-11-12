@@ -921,13 +921,6 @@ skill2/tw2/tw2_74
   orig: 100, 100
   offset: 20, 54
   index: -1
-skill2/tw2/tw2_76
-  rotate: false
-  xy: 963, 777
-  size: 2, 2
-  orig: 100, 100
-  offset: 20, 54
-  index: -1
 skill2/tw3/tw3_62
   rotate: false
   xy: 852, 781
@@ -1090,13 +1083,6 @@ skill2/zhuangji/zj_49
   offset: 92, 104
   index: -1
 skill2/zhuangji/zj_51
-  rotate: false
-  xy: 1021, 892
-  size: 1, 2
-  orig: 150, 150
-  offset: 99, 107
-  index: -1
-skill2/zhuangji/zj_53
   rotate: false
   xy: 1021, 892
   size: 1, 2

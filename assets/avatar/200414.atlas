@@ -550,13 +550,6 @@ texiao/skill2/zs00075
   orig: 176, 196
   offset: 24, 89
   index: -1
-texiao/skill2/zs00077
-  rotate: true
-  xy: 448, 307
-  size: 110, 77
-  orig: 176, 196
-  offset: 24, 89
-  index: -1
 tf01
   rotate: false
   xy: 237, 7
