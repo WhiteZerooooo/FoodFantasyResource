@@ -1,0 +1,55 @@
+
+500680_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500680_1
+  rotate: false
+  xy: 196, 67
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+500680_2
+  rotate: true
+  xy: 0, 0
+  size: 12, 20
+  orig: 12, 20
+  offset: 0, 0
+  index: -1
+500680_3
+  rotate: false
+  xy: 111, 21
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+500680_4
+  rotate: true
+  xy: 0, 15
+  size: 34, 108
+  orig: 34, 108
+  offset: 0, 0
+  index: -1
+500680_6
+  rotate: true
+  xy: 196, 170
+  size: 76, 49
+  orig: 76, 49
+  offset: 0, 0
+  index: -1
+500680_7
+  rotate: true
+  xy: 196, 86
+  size: 81, 41
+  orig: 81, 41
+  offset: 0, 0
+  index: -1
+avator_fram_500680
+  rotate: false
+  xy: 0, 52
+  size: 193, 194
+  orig: 210, 210
+  offset: 9, 6
+  index: -1

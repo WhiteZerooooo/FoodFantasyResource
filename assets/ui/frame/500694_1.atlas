@@ -1,0 +1,41 @@
+
+500694_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a0000
+  rotate: false
+  xy: 34, 32
+  size: 28, 28
+  orig: 55, 54
+  offset: 15, 12
+  index: -1
+avator_frame_500694
+  rotate: false
+  xy: 2, 62
+  size: 204, 192
+  orig: 210, 210
+  offset: 4, 13
+  index: -1
+b0000
+  rotate: false
+  xy: 208, 214
+  size: 26, 40
+  orig: 55, 54
+  offset: 13, 4
+  index: -1
+gezi_1
+  rotate: false
+  xy: 2, 6
+  size: 30, 54
+  orig: 30, 54
+  offset: 0, 0
+  index: -1
+gezi_2
+  rotate: false
+  xy: 34, 2
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+500679_1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500679_1
+  rotate: false
+  xy: 0, 0
+  size: 80, 43
+  orig: 80, 43
+  offset: 0, 0
+  index: -1
+500679_2
+  rotate: false
+  xy: 209, 53
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+500679_3
+  rotate: false
+  xy: 209, 155
+  size: 118, 86
+  orig: 118, 86
+  offset: 0, 0
+  index: -1
+avator_fram_500679
+  rotate: false
+  xy: 0, 46
+  size: 206, 195
+  orig: 210, 210
+  offset: 4, 4
+  index: -1
+xue0000
+  rotate: false
+  xy: 330, 203
+  size: 38, 38
+  orig: 128, 128
+  offset: 45, 45
+  index: -1

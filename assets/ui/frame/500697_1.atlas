@@ -1,0 +1,153 @@
+
+500697_1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500697_1
+  rotate: false
+  xy: 2, 141
+  size: 22, 113
+  orig: 22, 113
+  offset: 0, 0
+  index: -1
+idle_1_01
+  rotate: true
+  xy: 2, 33
+  size: 51, 25
+  orig: 53, 25
+  offset: 2, 0
+  index: -1
+idle_1_02
+  rotate: false
+  xy: 2, 2
+  size: 51, 25
+  orig: 53, 25
+  offset: 2, 0
+  index: -1
+idle_1_03
+  rotate: true
+  xy: 70, 102
+  size: 51, 24
+  orig: 53, 25
+  offset: 2, 1
+  index: -1
+idle_1_04
+  rotate: false
+  xy: 96, 139
+  size: 51, 24
+  orig: 53, 25
+  offset: 2, 1
+  index: -1
+idle_1_05
+  rotate: false
+  xy: 96, 113
+  size: 51, 24
+  orig: 53, 25
+  offset: 2, 1
+  index: -1
+idle_1_06
+  rotate: true
+  xy: 149, 112
+  size: 51, 24
+  orig: 53, 25
+  offset: 2, 1
+  index: -1
+idle_1_07
+  rotate: true
+  xy: 70, 155
+  size: 52, 24
+  orig: 53, 25
+  offset: 1, 1
+  index: -1
+idle_1_08
+  rotate: false
+  xy: 201, 229
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+idle_1_09
+  rotate: false
+  xy: 201, 202
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+idle_1_10
+  rotate: true
+  xy: 2, 86
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+idle_2_01
+  rotate: true
+  xy: 29, 29
+  size: 37, 43
+  orig: 44, 47
+  offset: 7, 2
+  index: -1
+idle_2_02
+  rotate: false
+  xy: 26, 209
+  size: 43, 45
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+idle_2_03
+  rotate: false
+  xy: 26, 161
+  size: 42, 46
+  orig: 44, 47
+  offset: 1, 1
+  index: -1
+idle_2_04
+  rotate: false
+  xy: 71, 210
+  size: 42, 44
+  orig: 44, 47
+  offset: 1, 2
+  index: -1
+idle_2_05
+  rotate: false
+  xy: 115, 210
+  size: 41, 44
+  orig: 44, 47
+  offset: 2, 2
+  index: -1
+idle_2_06
+  rotate: false
+  xy: 96, 165
+  size: 41, 43
+  orig: 44, 47
+  offset: 1, 2
+  index: -1
+idle_2_07
+  rotate: false
+  xy: 139, 165
+  size: 41, 43
+  orig: 44, 47
+  offset: 1, 1
+  index: -1
+idle_2_08
+  rotate: false
+  xy: 29, 114
+  size: 39, 45
+  orig: 44, 47
+  offset: 2, 1
+  index: -1
+idle_2_09
+  rotate: false
+  xy: 29, 68
+  size: 39, 44
+  orig: 44, 47
+  offset: 3, 2
+  index: -1
+idle_2_10
+  rotate: false
+  xy: 158, 210
+  size: 41, 44
+  orig: 44, 47
+  offset: 3, 2
+  index: -1

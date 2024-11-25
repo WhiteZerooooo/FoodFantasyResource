@@ -1,0 +1,48 @@
+
+500667_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500667_cao_1
+  rotate: false
+  xy: 271, 345
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+500667_cao_2
+  rotate: false
+  xy: 0, 0
+  size: 51, 70
+  orig: 51, 70
+  offset: 0, 0
+  index: -1
+500667_cao_3
+  rotate: false
+  xy: 209, 247
+  size: 47, 60
+  orig: 47, 60
+  offset: 0, 0
+  index: -1
+500667_wu
+  rotate: false
+  xy: 0, 73
+  size: 205, 108
+  orig: 205, 108
+  offset: 0, 0
+  index: -1
+500667_zhuangshi
+  rotate: false
+  xy: 209, 310
+  size: 59, 74
+  orig: 59, 74
+  offset: 0, 0
+  index: -1
+avator_frame_500667
+  rotate: false
+  xy: 0, 184
+  size: 206, 200
+  orig: 210, 210
+  offset: 2, 6
+  index: -1

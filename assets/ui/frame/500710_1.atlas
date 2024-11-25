@@ -1,0 +1,104 @@
+
+500710_1.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500710
+  rotate: false
+  xy: 2, 135
+  size: 149, 126
+  orig: 149, 126
+  offset: 0, 0
+  index: -1
+avator_frame_500710
+  rotate: false
+  xy: 2, 263
+  size: 202, 204
+  orig: 210, 210
+  offset: 7, 1
+  index: -1
+tx/tx0000
+  rotate: false
+  xy: 206, 337
+  size: 126, 130
+  orig: 152, 146
+  offset: 15, 7
+  index: -1
+tx/tx0002
+  rotate: false
+  xy: 2, 2
+  size: 123, 131
+  orig: 152, 146
+  offset: 16, 7
+  index: -1
+tx/tx0004
+  rotate: false
+  xy: 334, 337
+  size: 124, 130
+  orig: 152, 146
+  offset: 15, 8
+  index: -1
+tx/tx0006
+  rotate: false
+  xy: 337, 208
+  size: 126, 127
+  orig: 152, 146
+  offset: 13, 9
+  index: -1
+tx/tx0008
+  rotate: false
+  xy: 460, 340
+  size: 127, 127
+  orig: 152, 146
+  offset: 13, 8
+  index: -1
+tx/tx0010
+  rotate: true
+  xy: 465, 211
+  size: 127, 124
+  orig: 152, 146
+  offset: 13, 7
+  index: -1
+tx/tx0012
+  rotate: false
+  xy: 591, 214
+  size: 125, 126
+  orig: 152, 146
+  offset: 13, 7
+  index: -1
+tx/tx0014
+  rotate: true
+  xy: 718, 216
+  size: 124, 127
+  orig: 152, 146
+  offset: 13, 8
+  index: -1
+tx/tx0016
+  rotate: true
+  xy: 206, 214
+  size: 121, 129
+  orig: 152, 146
+  offset: 15, 8
+  index: -1
+tx/tx0018
+  rotate: true
+  xy: 720, 342
+  size: 125, 128
+  orig: 152, 146
+  offset: 14, 8
+  index: -1
+tx/tx0020
+  rotate: false
+  xy: 589, 342
+  size: 129, 125
+  orig: 152, 146
+  offset: 13, 10
+  index: -1
+tx/tx0022
+  rotate: false
+  xy: 850, 342
+  size: 128, 125
+  orig: 152, 146
+  offset: 14, 10
+  index: -1

@@ -1,0 +1,34 @@
+
+500715_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+500715_1
+  rotate: false
+  xy: 2, 2
+  size: 27, 44
+  orig: 27, 44
+  offset: 0, 0
+  index: -1
+500715_2
+  rotate: false
+  xy: 93, 81
+  size: 23, 45
+  orig: 23, 45
+  offset: 0, 0
+  index: -1
+500715_3
+  rotate: false
+  xy: 63, 62
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+500715_4
+  rotate: false
+  xy: 2, 48
+  size: 59, 78
+  orig: 59, 78
+  offset: 0, 0
+  index: -1
