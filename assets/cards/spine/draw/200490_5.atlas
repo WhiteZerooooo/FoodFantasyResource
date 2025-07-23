@@ -1,0 +1,513 @@
+
+200490_5_p1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundMain
+  rotate: false
+  xy: 2, 8
+  size: 626, 1014
+  orig: 626, 1014
+  offset: 0, 0
+  index: -1
+BodyDOWN
+  rotate: true
+  xy: 968, 124
+  size: 105, 54
+  orig: 105, 54
+  offset: 0, 0
+  index: -1
+ChessBody
+  rotate: false
+  xy: 630, 54
+  size: 336, 303
+  orig: 336, 303
+  offset: 0, 0
+  index: -1
+EffectFeathers10
+  rotate: false
+  xy: 630, 359
+  size: 388, 663
+  orig: 388, 664
+  offset: 0, 1
+  index: -1
+EffectFeathers7
+  rotate: false
+  xy: 968, 53
+  size: 54, 69
+  orig: 54, 69
+  offset: 0, 0
+  index: -1
+EyeLight
+  rotate: false
+  xy: 672, 5
+  size: 42, 8
+  orig: 42, 8
+  offset: 0, 0
+  index: -1
+FaceElbrow
+  rotate: false
+  xy: 844, 11
+  size: 77, 16
+  orig: 77, 16
+  offset: 0, 0
+  index: -1
+Hair1
+  rotate: true
+  xy: 630, 15
+  size: 37, 113
+  orig: 37, 113
+  offset: 0, 0
+  index: -1
+Hair3
+  rotate: true
+  xy: 745, 12
+  size: 40, 97
+  orig: 40, 97
+  offset: 0, 0
+  index: -1
+Hair4
+  rotate: false
+  xy: 968, 231
+  size: 54, 126
+  orig: 54, 126
+  offset: 0, 0
+  index: -1
+HandFinger2
+  rotate: false
+  xy: 923, 6
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+HandfingersDown
+  rotate: false
+  xy: 630, 2
+  size: 40, 11
+  orig: 40, 11
+  offset: 0, 0
+  index: -1
+NeckCollar
+  rotate: false
+  xy: 956, 4
+  size: 66, 47
+  orig: 66, 47
+  offset: 0, 0
+  index: -1
+WaistChainsBack
+  rotate: false
+  xy: 844, 29
+  size: 110, 23
+  orig: 110, 23
+  offset: 0, 0
+  index: -1
+
+200490_5_p2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundGoat
+  rotate: true
+  xy: 630, 396
+  size: 626, 229
+  orig: 626, 229
+  offset: 0, 0
+  index: -1
+BodyInside
+  rotate: true
+  xy: 861, 399
+  size: 192, 161
+  orig: 192, 161
+  offset: 0, 0
+  index: -1
+BodyUP
+  rotate: false
+  xy: 862, 22
+  size: 154, 117
+  orig: 154, 117
+  offset: 0, 0
+  index: -1
+EffectCloak
+  rotate: false
+  xy: 2, 8
+  size: 626, 1014
+  orig: 626, 1014
+  offset: 0, 0
+  index: -1
+EffectFeathers3
+  rotate: true
+  xy: 862, 141
+  size: 256, 151
+  orig: 256, 151
+  offset: 0, 0
+  index: -1
+EffectStars2Multiple2
+  rotate: true
+  xy: 630, 18
+  size: 376, 230
+  orig: 378, 230
+  offset: 1, 0
+  index: -1
+EyeIris
+  rotate: false
+  xy: 862, 2
+  size: 51, 18
+  orig: 51, 18
+  offset: 0, 0
+  index: -1
+HandFinger1
+  rotate: false
+  xy: 915, 4
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+HeadShadows
+  rotate: false
+  xy: 861, 593
+  size: 145, 429
+  orig: 145, 429
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 1008, 993
+  size: 29, 13
+  orig: 29, 13
+  offset: 0, 0
+  index: -1
+
+200490_5_p3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundGoatEyelipDOWN2
+  rotate: false
+  xy: 523, 2
+  size: 266, 176
+  orig: 267, 177
+  offset: 1, 0
+  index: -1
+BackgroundGoatEyelipUP
+  rotate: false
+  xy: 523, 180
+  size: 481, 214
+  orig: 481, 214
+  offset: 0, 0
+  index: -1
+EffectClaws
+  rotate: true
+  xy: 523, 396
+  size: 626, 419
+  orig: 626, 419
+  offset: 0, 0
+  index: -1
+EffectFeathers4
+  rotate: false
+  xy: 981, 126
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+EffectFeathers6
+  rotate: false
+  xy: 944, 463
+  size: 64, 102
+  orig: 65, 103
+  offset: 0, 0
+  index: -1
+EffectLight4Multiple
+  rotate: false
+  xy: 2, 27
+  size: 519, 995
+  orig: 520, 996
+  offset: 0, 0
+  index: -1
+EyeWhite
+  rotate: false
+  xy: 69, 4
+  size: 61, 21
+  orig: 62, 21
+  offset: 1, 0
+  index: -1
+EyelipDOWN
+  rotate: false
+  xy: 2, 2
+  size: 65, 23
+  orig: 65, 23
+  offset: 0, 0
+  index: -1
+EyelipUP
+  rotate: true
+  xy: 981, 17
+  size: 70, 27
+  orig: 70, 27
+  offset: 0, 0
+  index: -1
+Forearms
+  rotate: false
+  xy: 791, 5
+  size: 188, 173
+  orig: 188, 173
+  offset: 0, 0
+  index: -1
+Hair5
+  rotate: false
+  xy: 944, 567
+  size: 69, 102
+  orig: 69, 102
+  offset: 0, 0
+  index: -1
+Hair6
+  rotate: true
+  xy: 944, 406
+  size: 55, 77
+  orig: 55, 77
+  offset: 0, 0
+  index: -1
+Hair7
+  rotate: false
+  xy: 981, 89
+  size: 29, 35
+  orig: 29, 36
+  offset: 0, 0
+  index: -1
+HairWet
+  rotate: true
+  xy: 944, 947
+  size: 75, 73
+  orig: 75, 74
+  offset: 0, 0
+  index: -1
+HeadDecoration
+  rotate: true
+  xy: 944, 671
+  size: 123, 69
+  orig: 123, 69
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 944, 796
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1
+NeckLace
+  rotate: false
+  xy: 944, 871
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+
+200490_5_p4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundStones
+  rotate: true
+  xy: 738, 197
+  size: 469, 237
+  orig: 469, 237
+  offset: 0, 0
+  index: -1
+BodyCloak
+  rotate: false
+  xy: 738, 30
+  size: 214, 165
+  orig: 214, 165
+  offset: 0, 0
+  index: -1
+EffectFeathers1
+  rotate: true
+  xy: 954, 104
+  size: 91, 43
+  orig: 91, 44
+  offset: 0, 1
+  index: -1
+EffectFeathers11
+  rotate: false
+  xy: 659, 42
+  size: 62, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+EffectFeathers2
+  rotate: true
+  xy: 947, 759
+  size: 91, 52
+  orig: 92, 53
+  offset: 0, 1
+  index: -1
+EffectFeathers5
+  rotate: true
+  xy: 245, 30
+  size: 81, 166
+  orig: 81, 167
+  offset: 0, 0
+  index: -1
+EffectFeathers9
+  rotate: true
+  xy: 947, 673
+  size: 84, 46
+  orig: 85, 48
+  offset: 0, 1
+  index: -1
+EffectLight1Multiple
+  rotate: false
+  xy: 518, 148
+  size: 218, 518
+  orig: 220, 520
+  offset: 1, 1
+  index: -1
+EffectStars1
+  rotate: false
+  xy: 2, 113
+  size: 514, 909
+  orig: 514, 909
+  offset: 0, 0
+  index: -1
+Foot
+  rotate: false
+  xy: 2, 27
+  size: 241, 84
+  orig: 241, 85
+  offset: 0, 1
+  index: -1
+Hair2
+  rotate: true
+  xy: 947, 852
+  size: 42, 75
+  orig: 42, 75
+  offset: 0, 0
+  index: -1
+Hand
+  rotate: true
+  xy: 413, 21
+  size: 90, 108
+  orig: 118, 114
+  offset: 28, 6
+  index: -1
+HeadCrown
+  rotate: false
+  xy: 523, 24
+  size: 134, 122
+  orig: 134, 122
+  offset: 0, 0
+  index: -1
+WaistBand
+  rotate: true
+  xy: 947, 896
+  size: 126, 60
+  orig: 126, 60
+  offset: 0, 0
+  index: -1
+WaistChains
+  rotate: false
+  xy: 518, 668
+  size: 427, 354
+  orig: 427, 354
+  offset: 0, 0
+  index: -1
+
+200490_5_p5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundChess
+  rotate: false
+  xy: 2, 477
+  size: 609, 545
+  orig: 610, 546
+  offset: 1, 0
+  index: -1
+BackgroundGoatEte
+  rotate: false
+  xy: 159, 29
+  size: 157, 147
+  orig: 158, 147
+  offset: 0, 0
+  index: -1
+BackgroundGoatEyelipDOWN
+  rotate: false
+  xy: 613, 853
+  size: 391, 169
+  orig: 391, 169
+  offset: 0, 0
+  index: -1
+BackgroundGoatEyelipUP2
+  rotate: true
+  xy: 414, 171
+  size: 304, 198
+  orig: 305, 198
+  offset: 1, 0
+  index: -1
+ChessHead
+  rotate: false
+  xy: 613, 580
+  size: 287, 271
+  orig: 287, 271
+  offset: 0, 0
+  index: -1
+Ckirt
+  rotate: false
+  xy: 2, 178
+  size: 410, 297
+  orig: 410, 297
+  offset: 0, 0
+  index: -1
+EffectFeathers8
+  rotate: false
+  xy: 902, 605
+  size: 117, 118
+  orig: 117, 118
+  offset: 0, 0
+  index: -1
+EffectLight3Multiple
+  rotate: true
+  xy: 614, 238
+  size: 340, 190
+  orig: 341, 192
+  offset: 1, 1
+  index: -1
+EffectStars2Multiple
+  rotate: true
+  xy: 806, 455
+  size: 123, 121
+  orig: 124, 121
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 318, 81
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+FaceShadow
+  rotate: true
+  xy: 2, 2
+  size: 174, 155
+  orig: 174, 155
+  offset: 0, 0
+  index: -1
+FaceShadow2Multiple
+  rotate: false
+  xy: 806, 373
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+HairBottom
+  rotate: true
+  xy: 902, 725
+  size: 126, 117
+  orig: 126, 117
+  offset: 0, 0
+  index: -1
