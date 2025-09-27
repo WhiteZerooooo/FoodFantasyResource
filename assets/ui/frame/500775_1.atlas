@@ -1,0 +1,20 @@
+
+500775_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang
+  rotate: false
+  xy: 2, 18
+  size: 106, 102
+  orig: 106, 102
+  offset: 0, 0
+  index: -1
+piao
+  rotate: false
+  xy: 2, 2
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+500779_1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hun1
+  rotate: true
+  xy: 2, 2
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+hun2
+  rotate: false
+  xy: 105, 44
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 24
+  size: 101, 98
+  orig: 101, 98
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 154, 93
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 105, 78
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1

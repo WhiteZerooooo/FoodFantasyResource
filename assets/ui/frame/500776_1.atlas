@@ -1,0 +1,27 @@
+
+500776_1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang
+  rotate: false
+  xy: 2, 21
+  size: 103, 105
+  orig: 103, 105
+  offset: 0, 0
+  index: -1
+ye
+  rotate: true
+  xy: 2, 2
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+zhi
+  rotate: true
+  xy: 107, 83
+  size: 43, 18
+  orig: 43, 18
+  offset: 0, 0
+  index: -1
