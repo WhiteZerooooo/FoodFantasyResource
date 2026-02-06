@@ -1,0 +1,11 @@
+local data = {
+    appVersion='',
+    version = '1.1.157',
+    lib = {
+        
+    },
+    oth = {
+        ["publish/conf/zh-cn/artifact/gemstoneSkill200504.zip"]="d4fa24a8e510f61c388029cd840e5d32",["publish/conf/zh-cn/artifact/gemstoneSkill200505.zip"]="62f8016d2a090c411a61f132e8f7e123",["publish/conf/zh-cn/artifact/gemstoneSkill200506.zip"]="d0d64d0112783ec441b727daaf0b1320",["publish/conf/zh-cn/card/card.zip"]="e12953bbae167db098339f36de33ad3f",["publish/conf/zh-cn/card/skill.zip"]="dfb76161b7d4267e0dde5b66031a38d5",["publish/conf/zh-cn/card/skill1811.zip"]="dc9e10ad4a3c08ff6f9251298fc4ccc1",["publish/conf/zh-cn/card/skill221.zip"]="15e6105fee3fdcf9ff1af2d1b379d4d9",["publish/conf/zh-cn/restaurant/show.zip"]="c238e851ef791caf0781b84f09406eaf",["res/arts/goods/goods_icon_883087.png"]="0fe2ea90aad1aaa487e6cae574583046",
+    },
+}
+return data
